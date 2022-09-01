@@ -1,5 +1,6 @@
 /*
-Using the following table, write a program that reads a code and the amount of an item. After, print the value to pay. This is a very simple program with the only intention of practice of selection commands.
+Using the following table, write a program that reads a code and the amount of an item. After, print the value to pay. 
+This is a very simple program with the only intention of practice of selection commands.
 
 https://www.beecrowd.com.br/judge/en/problems/view/1038
 
