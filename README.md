@@ -13,7 +13,7 @@ This repository contains my Beecrowd solutions.
 Beecrowd is an online platform created with the aim of providing its users with learning, practice and improvement of their skills in media by solving various programming problems.
 Problems available on the platform can be solved with different programming languages.
 
-[Beecrowd Website](www.beecrowd.com.br)
+[Beecrowd Website](https://www.beecrowd.com.br)
 
 #### Beecrowd Profile:
 
