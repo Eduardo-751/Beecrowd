@@ -3,7 +3,7 @@
 
 ## Beecrowd Solutions
 
-This repository contains some solutions to Beecrowd questions.
+This repository contains my Beecrowd solutions.
 
 ## About Beecrowd
 Beecrowd is an online platform created with the aim of providing its users with learning, practice and improvement of their skills in media by solving various programming problems.
