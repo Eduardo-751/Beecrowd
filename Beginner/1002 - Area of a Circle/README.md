@@ -1,4 +1,4 @@
-# 1001 - Área do Círculo
+# 1002 - Área do Círculo
 
 ## [Descrição](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
 

@@ -7,9 +7,11 @@ public class Main {
         InputStreamReader ir = new InputStreamReader(System.in);
         BufferedReader in = new BufferedReader(ir);
 
-        int A = Integer.parseInt(in.readLine());
-        int B = Integer.parseInt(in.readLine());
+        double A = Double.parseDouble(in.readLine());
+        double B = Double.parseDouble(in.readLine());
 
-        System.out.printf("SOMA = %d\n", A + B);
+        double media = (3.5 * A + 7.5 * B) / 11;
+
+        System.out.printf("MEDIA = %.5f\n", media);
     }
 }

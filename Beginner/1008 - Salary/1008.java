@@ -9,7 +9,11 @@ public class Main {
 
         int A = Integer.parseInt(in.readLine());
         int B = Integer.parseInt(in.readLine());
+        double C = Double.parseDouble(in.readLine());
 
-        System.out.printf("SOMA = %d\n", A + B);
+        double salario = (B * C);
+
+        System.out.printf("NUMBER = %d\n", A);
+        System.out.printf("SALARY = U$ %.2f\n", salario);
     }
 }

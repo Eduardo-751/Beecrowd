@@ -9,7 +9,11 @@ public class Main {
 
         int A = Integer.parseInt(in.readLine());
         int B = Integer.parseInt(in.readLine());
+        int C = Integer.parseInt(in.readLine());
+        int D = Integer.parseInt(in.readLine());
 
-        System.out.printf("SOMA = %d\n", A + B);
+        int diferenca = ((A * B) - (C * D));
+
+        System.out.printf("DIFERENCA = %d\n", diferenca);
     }
 }
