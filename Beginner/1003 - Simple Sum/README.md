@@ -1,6 +1,6 @@
-# 1001 - Extremamente Básico
+# 1001 - Área do Círculo
 
-## [Descrição](https://www.beecrowd.com.br/judge/pt/problems/view/1001)
+## [Descrição](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 
 ### C99
 
@@ -12,7 +12,7 @@ int main(){
     int A, B;
 
     scanf("%i %i", &A, &B);
-    printf("X = %i\n", A + B);
+    printf("PROD = %i\n", A * B);
 
     return 0;
 }
@@ -33,7 +33,7 @@ public class Main {
         int A = Integer.parseInt(in.readLine());
         int B = Integer.parseInt(in.readLine());
 
-         System.out.printf("X = %d\n", A + B);
+        System.out.printf("SOMA = %d\n", A + B);
     }
 }
 ```
@@ -45,10 +45,10 @@ using System;
 
 class URI {
     static void Main(string[] args) {
-        int A = Convert.ToInt32(Console.ReadLine());
-        int B = Convert.ToInt32(Console.ReadLine());
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
 
-        Console.WriteLine($"X = {A + B}");
+        Console.WriteLine($"SOMA = {A * B}");
     }
 }
 ```
@@ -59,6 +59,5 @@ class URI {
 A = int(input())
 B = int(input())
 
-print(f"X = {A + B}")
-
+print(f"PROD = {A * B}")
 ```
