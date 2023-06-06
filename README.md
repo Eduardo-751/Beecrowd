@@ -7,6 +7,19 @@
 
 This repository contains my Beecrowd solutions.
 
+| Category | Documented | Total problems |
+| -- | -- | -- |
+| [Beginner](./Beginner) | 97 | 336 |
+| [Ad-Hoc](./AD-HOC) | 3 | 787 |
+| [Strings](./Strings) | 2 | 148 |
+| [Data Structure sand Libraries](./Data%20Structures%20and%20Libraries) | 1 | 179 |
+| [Mathematics](./Mathematics) | 1 | 269 |
+| Paradigms | 0 | 215 |
+| Graph | 0 | 277 |
+| Computational Geometry | 0 | 82 |
+| [SQL](./Sql) | 17 | 46 |
+| | | |
+| Total | 121 | 2339 |
 <br/>
 
 ## About Beecrowd
