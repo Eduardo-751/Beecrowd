@@ -1,46 +1,58 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1066 - Pares, Ímpares, Positivos e Negativos</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Leia 5 valores Inteiros. A seguir mostre quantos valores digitados
+            foram pares, quantos valores digitados foram ímpares, quantos
+            valores digitados foram positivos e quantos valores digitados foram
+            negativos.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>O arquivo de entrada contém 5 valores inteiros quaisquer.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>
+            Imprima a mensagem conforme o exemplo fornecido, uma mensagem por
+            linha, não esquecendo o final de linha após cada uma.
+          </p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+          <tr>
+            <td>Exemplo de Entrada</td>
+            <td>Exemplo de Saída</td>
+          </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  -5<br />
+                  0<br />
+                  -3<br />
+                  -4<br />
+                  12
+                </p>
+              </td>
+              <td>
+                <p>
+                  3 valor(es) par(es)<br />
+                  2 valor(es) impar(es)<br />
+                  1 valor(es) positivo(s)<br />
+                  3 valor(es) negativo(s)
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

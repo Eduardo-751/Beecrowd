@@ -1,46 +1,51 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1142 - PUM</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Escreva um programa que leia um valor inteiro N. Este N é a
+            quantidade de linhas de saída que serão apresentadas na execução do
+            programa.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>O arquivo de entrada contém um número inteiro positivo N.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>Imprima a saída conforme o exemplo fornecido.</p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplo de Entrada</td>
+              <td>Exemplo de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>7</p>
+              </td>
+              <td>
+                <p>
+                  1 2 3 PUM<br />
+                  5 6 7 PUM<br />
+                  9 10 11 PUM<br />
+                  13 14 15 PUM<br />
+                  17 18 19 PUM<br />
+                  21 22 23 PUM<br />
+                  25 26 27 PUM
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

@@ -1,46 +1,99 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1049 - Animal</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Neste problema, você deverá ler 3 palavras que definem o tipo de
+            animal possível segundo o esquema abaixo, da esquerda para a
+            direita.&nbsp; Em seguida conclua qual dos animais seguintes foi
+            escolhido, através das três palavras fornecidas.
+          </p>
+          <p class="center">
+            <img
+              alt=""
+              src="https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1049_b.png"
+              style="width: 600px; height: 459px"
+            />
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>
+            A entrada contém 3 palavras, uma em cada linha, necessárias para
+            identificar o animal segundo a figura acima, com todas as letras
+            minúsculas.
+          </p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>Imprima o nome do animal correspondente à entrada fornecida.</p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplos de Entrada</td>
+              <td>Exemplos de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  vertebrado<br />
+                  mamifero<br />
+                  onivoro
+                </p>
+              </td>
+              <td>
+                <p>homem</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplos de Entrada</td>
+              <td>Exemplos de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  vertebrado<br />
+                  ave<br />
+                  carnivoro
+                </p>
+              </td>
+              <td>
+                <p>aguia</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplos de Entrada</td>
+              <td>Exemplos de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  invertebrado<br />
+                  anelideo<br />
+                  onivoro
+                </p>
+              </td>
+              <td>
+                <p>minhoca</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

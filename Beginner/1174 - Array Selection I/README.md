@@ -1,46 +1,62 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1174 - Seleçao em Vetor I</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Faça um programa que leia um vetor A[100]. No final, mostre todas as
+            posições do vetor que armazenam um valor menor ou igual a 10 e o
+            valor armazenado em cada uma das posições.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>
+            A entrada contém 100 valores, podendo ser inteiros, reais, positivos
+            ou negativos.
+          </p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>
+            Para cada valor do vetor menor ou igual a 10, escreva
+            "A[<strong>i</strong>] = <strong>x</strong>", onde
+            <strong>i</strong> é&nbsp;a posição do vetor e <strong>x</strong> é
+            o valor armazenado na posição, com uma casa após o ponto decimal.
+          </p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplo de Entrada</td>
+              <td>Exemplo de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  0<br />
+                  -5<br />
+                  63<br />
+                  -8.5<br />
+                  ...
+                </p>
+              </td>
+              <td>
+                <p>
+                  A[0] = 0.0<br />
+                  A[1] = -5.0<br />
+                  A[3] = -8.5<br />
+                  ...
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

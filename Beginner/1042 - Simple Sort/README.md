@@ -1,46 +1,75 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1042 - Sort Simples</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Leia 3 valores inteiros e ordene-os em ordem crescente. No final,
+            mostre os valores em ordem crescente, uma linha em branco e em
+            seguida, os valores na sequência como foram lidos.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>A entrada contem três números inteiros.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>Imprima a saída conforme foi especificado.</p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplos de Entrada</td>
+              <td>Exemplos de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>7 21 -14</p>
+              </td>
+              <td>
+                <p>
+                  -14<br />
+                  7<br />
+                  21<br />
+                  <br />
+                  7<br />
+                  21<br />
+                  -14
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplos de Entrada</td>
+              <td>Exemplos de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>-14 21 7</p>
+              </td>
+              <td>
+                <p>
+                  -14<br />
+                  7<br />
+                  21<br />
+                  <br />
+                  -14<br />
+                  21<br />
+                  7
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

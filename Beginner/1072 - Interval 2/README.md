@@ -1,46 +1,67 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1072 - Intervalo 2</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Leia um valor inteiro <strong>N</strong>. Este valor será a
+            quantidade de valores inteiros <strong>X </strong>que serão lidos em
+            seguida.<br />
+            Mostre quantos destes valores <strong>X </strong>estão dentro do
+            intervalo [10,20] e quantos estão fora do intervalo, mostrando essas
+            informações.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>
+            A primeira linha da entrada contém um valor inteiro
+            <strong>N </strong>(<strong>N </strong>&lt; 10000), que indica o
+            número de casos de teste.<br />
+            Cada caso de teste a seguir é um valor inteiro
+            <strong>X </strong>(-10<sup>7</sup> &lt;
+            <strong>X</strong> &lt;10<sup>7</sup>).<br />
+            &nbsp;
+          </p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>
+            Para cada caso, imprima quantos números estão dentro
+            (<strong>in</strong>) e quantos valores estão fora
+            (<strong>out</strong>) do intervalo.
+          </p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+                <td>Exemplo de Entrada</td>
+                <td>Exemplo de Saída</td>
+              </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  4<br />
+                  14<br />
+                  123<br />
+                  10<br />
+                  -25
+                </p>
+              </td>
+              <td>
+                <p>
+                  2 in<br />
+                  2 out
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

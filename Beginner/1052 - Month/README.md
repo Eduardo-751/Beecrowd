@@ -1,46 +1,46 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1052 - Mês</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Leia um valor inteiro entre 1 e 12, inclusive. Correspondente a este
+            valor, deve ser apresentado como resposta o mês do ano por extenso,
+            em inglês, com a primeira letra maiúscula.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>A entrada contém um único valor inteiro.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>
+            Imprima por extenso o nome do mês correspondente ao número existente
+            na entrada, com a primeira letra em maiúscula.
+          </p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplo de Entrada</td>
+              <td>Exemplo de Saída</td>
+            </tr>
+            <tr>
+              <td class="division">
+                <p>4</p>
+              </td>
+              <td>
+                <p>April</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

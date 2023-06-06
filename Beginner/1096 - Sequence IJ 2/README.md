@@ -1,46 +1,51 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1096 - Sequencia IJ 2</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Você deve fazer um programa que apresente a sequencia conforme o
+            exemplo abaixo.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>Não há nenhuma entrada neste problema.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>Imprima a sequencia conforme exemplo abaixo</p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplo de Entrada</td>
+              <td>Exemplo de Saída</td>
+            </tr>
+            <tr>
+              <td class="division"></td>
+              <td>
+                <p>
+                  I=1 J=7<br />
+                  I=1 J=6<br />
+                  I=1 J=5<br />
+                  I=3 J=7<br />
+                  I=3 J=6<br />
+                  I=3 J=5<br />
+                  ...<br />
+                  I=9 J=7<br />
+                  I=9 J=6<br />
+                  I=9 J=5
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

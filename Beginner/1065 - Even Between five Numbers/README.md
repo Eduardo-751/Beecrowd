@@ -1,46 +1,51 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1065 - Pares entre Cinco Números</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Faça um programa que leia 5 valores inteiros. Conte quantos destes
+            valores digitados são pares e mostre esta informação.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>O arquivo de entrada contém 5 valores inteiros quaisquer.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>
+            Imprima a mensagem conforme o exemplo fornecido, indicando a
+            quantidade de valores pares lidos.
+          </p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+          <tr>
+            <td>Exemplo de Entrada</td>
+            <td>Exemplo de Saída</td>
+          </tr>
+            <tr>
+              <td class="division">
+                <p>
+                  7<br />
+                  -5<br />
+                  6<br />
+                  -4<br />
+                  12
+                </p>
+              </td>
+              <td>
+                <p>3 valores pares</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99

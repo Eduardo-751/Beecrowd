@@ -1,46 +1,51 @@
 <html>
-<body style="padding: 10px 0px;">
+  <body style="padding: 10px 0px">
     <div class="header">
-<h1></h1>
-        <div class="problem">
-            <div class="description">
-                <p>
-</p>
-            </div>
-            <h2>Entrada</h2>
-            <div class="input">
-                <p>
-</p>
-            </div>
-            <h2>Saída</h2>
-            <div class="output">
-                <p>
-</p>
-            </div>
-            <div class="both"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Exemplos de Entrada</td>
-                        <td>Exemplos de Saída</td>
-                    </tr>
-                    <tr>
-                        <td class="division">
-                            <p>
-</p>
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-</p>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h1>1098 - Sequencia IJ 4</h1>
+      <div class="problem">
+        <div class="description">
+          <p>
+            Você deve fazer um programa que apresente a sequencia conforme o
+            exemplo abaixo.
+          </p>
         </div>
+        <h2>Entrada</h2>
+        <div class="input">
+          <p>Não há nenhuma entrada neste problema.</p>
+        </div>
+        <h2>Saída</h2>
+        <div class="output">
+          <p>Imprima a sequencia conforme exemplo abaixo.</p>
+        </div>
+        <div class="both"></div>
+        <table>
+          <tbody>
+            <tr>
+              <td>Exemplo de Entrada</td>
+              <td>Exemplo de Saída</td>
+            </tr>
+            <tr>
+              <td class="division"></td>
+              <td>
+                <p>
+                  I=0 J=1<br />
+                  I=0 J=2<br />
+                  I=0 J=3<br />
+                  I=0.2 J=1.2<br />
+                  I=0.2 J=2.2<br />
+                  I=0.2 J=3.2<br />
+                  .....<br />
+                  I=2 J=?<br />
+                  I=2 J=?<br />
+                  I=2 J=?
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 ### C99
