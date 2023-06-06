@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "stdio.h": "c",
-    "math.h": "c"
+    "math.h": "c",
+    "string.h": "c"
   },
   "C_Cpp.default.compilerPath": "d:\\BeeCrowd_Code\\Beginner\\1001 - Extremely Basic\\1001 - Extremely Basic.c",
   "C_Cpp_Runner.msvcBatchPath": "",

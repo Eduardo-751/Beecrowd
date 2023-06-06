@@ -70,21 +70,3 @@ int main()
     return 0;
 }
 ```
-
-### Java
-
-```java
-
-```
-
-### C#
-
-```cs
-
-```
-
-### Python 3.9
-
-```python
-
-```
