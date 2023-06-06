@@ -7,6 +7,19 @@
 
 This repository contains my Beecrowd solutions.
 
+| Category | Documented | Total problems |
+| -- | -- | -- |
+| [Beginner](./problemas/iniciante/README.md) | 97 | 336 |
+| [Ad-Hoc](./problemas/ad-hoc/README.md) | 3 | 787 |
+| [Strings](./problemas/strings/README.md) | 2 | 148 |
+| [Data Structures and Libraries](./problemas/estruturas-e-bibliotecas/README.md) | 1 | 179 |
+| [Mathematics](./problemas/matematica/README.md) | 1 | 269 |
+| [Paradigms](./problemas/paradigmas/README.md) | 0 | 215 |
+| Graph | 0 | 277 |
+| Computational Geometry | 0 | 82 |
+| SQL | 17 | 46 |
+| | | |
+| Total | 121 | 2339 |
 <br/>
 
 ## About Beecrowd
