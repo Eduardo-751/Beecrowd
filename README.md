@@ -12,7 +12,7 @@ This repository contains my Beecrowd solutions.
 | [Beginner](./Beginner) | 97 | 336 |
 | [Ad-Hoc](./AD-HOC) | 3 | 787 |
 | [Strings](./Strings) | 2 | 148 |
-| [Data Structures and Libraries](./Data Structures and Libraries) | 1 | 179 |
+| [Data Structure sand Libraries](./Data%20Structures%20and%20Libraries) | 1 | 179 |
 | [Mathematics](./Mathematics) | 1 | 269 |
 | Paradigms | 0 | 215 |
 | Graph | 0 | 277 |
