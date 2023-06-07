@@ -3,7 +3,7 @@
 int main()
 {
     int N, F1, F2, MDC;
-    (scanf("%i", &N) > 0);
+    scanf("%i", &N);
     while (N > 0)
     {
         scanf("%i %i", &F1, &F2);

@@ -39,20 +39,41 @@ Imprima a saída conforme exemplo fornecido.
 
 int main()
 {
+    int day, month, year;
 
-    int dias, anos, meses;
+    scanf("%i", &day);
 
-    scanf("%i", &dias);
+    year = day / 365;
+    day %= 365;
+    month = day / 30;
+    day %= 30;
 
-    anos = dias / 365;
-    dias %= 365;
-    meses = dias / 30;
-    dias %= 30;
-
-    printf("%i ano(s)\n", anos);
-    printf("%i mes(es)\n", meses);
-    printf("%i dia(s)\n", dias);
+    printf("%i ano(s)\n", year);
+    printf("%i mes(es)\n", month);
+    printf("%i dia(s)\n", day);
 
     return 0;
+}
+```
+
+### C#
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int day = int.Parse(Console.ReadLine());
+
+        int year = day / 365;
+        day %= 365;
+        int month = day / 30;
+        day %= 30;
+
+        Console.WriteLine($"{year} ano(s)");
+        Console.WriteLine($"{month} mes(es)");
+        Console.WriteLine($"{day} dia(s)");
+    }
 }
 ```
