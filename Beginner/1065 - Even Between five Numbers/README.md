@@ -1,52 +1,25 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1065 - Pares entre Cinco Números</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Faça um programa que leia 5 valores inteiros. Conte quantos destes
-            valores digitados são pares e mostre esta informação.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>O arquivo de entrada contém 5 valores inteiros quaisquer.</p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Imprima a mensagem conforme o exemplo fornecido, indicando a
-            quantidade de valores pares lidos.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-          <tr>
-            <td>Exemplo de Entrada</td>
-            <td>Exemplo de Saída</td>
-          </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  7<br />
-                  -5<br />
-                  6<br />
-                  -4<br />
-                  12
-                </p>
-              </td>
-              <td>
-                <p>3 valores pares</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1065 - Pares entre Cinco Números
+================================
+
+Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
+
+Entrada
+-------
+
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+Saída
+-----
+
+Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
+
+&nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída |
+|---------------------|-------------------|
+| 7 <br/> -5 <br/> 6 <br/> -4 <br/> 12 <br/> 12 | 3 valores pares|
+
+&nbsp;
 
 ### C99
 

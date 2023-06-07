@@ -1,89 +1,35 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1011 - Esfera</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Faça um programa que calcule e mostre o volume de uma esfera sendo
-            fornecido o valor de seu raio (R). A fórmula para calcular o volume
-            é: (4/3) * pi * R<sup>3</sup>. Considere (atribua) para pi o valor
-            3.14159.
-          </p>
-          <p>
-            Dica: Ao utilizar a fórmula, procure usar (4/3.0) ou (4.0/3), pois
-            algumas linguagens (dentre elas o C++), assumem que o resultado da
-            divisão entre dois inteiros é outro inteiro.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            O arquivo de entrada contém um valor de ponto flutuante (dupla
-            precisão), correspondente ao raio da esfera.
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            A saída deverá ser uma mensagem "VOLUME" conforme o exemplo
-            fornecido abaixo, com um espaço antes e um espaço depois da
-            igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>3</p>
-              </td>
-              <td>
-                <p>VOLUME = 113.097</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>15</p>
-              </td>
-              <td>
-                <p>VOLUME = 14137.155</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>1523</p>
-              </td>
-              <td>
-                <p>VOLUME = 14797486501.627</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1011 - Esfera
+=============
+
+Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A fórmula para calcular o volume é: (4/3) \* pi \* R3. Considere (atribua) para pi o valor 3.14159.
+
+Dica: Ao utilizar a fórmula, procure usar (4/3.0) ou (4.0/3), pois algumas linguagens (dentre elas o C++), assumem que o resultado da divisão entre dois inteiros é outro inteiro.
+
+Entrada
+-------
+
+O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), correspondente ao raio da esfera.
+
+Saída
+-----
+
+A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
+
+&nbsp;
+
+| Exemplos de Entrada      | Exemplos de Saída        |
+|--------------------------|--------------------------|
+| 3                        | VOLUME = 113.097         |
+
+| Exemplos de Entrada      | Exemplos de Saída        |
+|--------------------------|--------------------------|
+| 15                       | VOLUME = 14137.155       |
+
+| Exemplos de Entrada      | Exemplos de Saída        |
+|--------------------------|--------------------------|
+| 1523                     | VOLUME = 14797486501.627 |
+
+&nbsp;
 
 ### C99
 

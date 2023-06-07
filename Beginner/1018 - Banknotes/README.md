@@ -1,113 +1,33 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1018 - Cédulas</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Leia um valor inteiro. A seguir, calcule o menor número de notas
-            possíveis (cédulas) no qual o valor pode ser decomposto. As notas
-            consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir
-            mostre<strong> o valor lido </strong>e a relação de notas
-            necessárias.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            O arquivo de entrada contém um valor inteiro <strong>N </strong>(0
-            &lt; <strong>N </strong>&lt; 1000000).
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Imprima o valor lido e, em seguida, a quantidade mínima de notas de
-            cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de
-            imprimir o fim de linha após cada linha, caso contrário seu programa
-            apresentará a mensagem: <em>“Presentation Error”</em>.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>576</p>
-              </td>
-              <td>
-                <p>
-                  576<br />
-                  5 nota(s) de R$ 100,00<br />
-                  1 nota(s) de R$ 50,00<br />
-                  1 nota(s) de R$ 20,00<br />
-                  0 nota(s) de R$ 10,00<br />
-                  1 nota(s) de R$ 5,00<br />
-                  0 nota(s) de R$ 2,00<br />
-                  1 nota(s) de R$ 1,00
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>11257</p>
-              </td>
-              <td>
-                <p>
-                  11257<br />
-                  112 nota(s) de R$ 100,00<br />
-                  1 nota(s) de R$ 50,00<br />
-                  0 nota(s) de R$ 20,00<br />
-                  0 nota(s) de R$ 10,00<br />
-                  1 nota(s) de R$ 5,00<br />
-                  1 nota(s) de R$ 2,00<br />
-                  0 nota(s) de R$ 1,00
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>503</p>
-              </td>
-              <td>
-                <p>
-                  503<br />
-                  5 nota(s) de R$ 100,00<br />
-                  0 nota(s) de R$ 50,00<br />
-                  0 nota(s) de R$ 20,00<br />
-                  0 nota(s) de R$ 10,00<br />
-                  0 nota(s) de R$ 5,00<br />
-                  1 nota(s) de R$ 2,00<br />
-                  1 nota(s) de R$ 1,00
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1018 - Cédulas
+==============
+
+Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre **o valor lido** e a relação de notas necessárias.
+
+Entrada
+-------
+
+O arquivo de entrada contém um valor inteiro **N** (0 < **N** < 1000000).
+
+Saída
+-----
+
+Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: _“Presentation Error”_.
+
+&nbsp;
+
+| Exemplos de Entrada      | Exemplos de Saída        |
+|--------------------------|--------------------------|
+| 576 <br/> 85             | 576 <br/> 5 nota(s) de R$ 100,00 <br/> 1 nota(s) de R$ 50,00 <br/> 1 nota(s) de R$ 20,00 <br/> 0 nota(s) de R$ 10,00 <br/> 1 nota(s) de R$ 5,00 <br/> 0 nota(s) de R$ 2,00 <br/> 1 nota(s) de R$ 1,00 |
+
+| Exemplos de Entrada      | Exemplos de Saída        |
+|--------------------------|--------------------------|
+| 11257 <br/> 92           | 11257 <br/> 112 nota(s) de R$ 100,00 <br/> 1 nota(s) de R$ 50,00 <br/> 0 nota(s) de R$ 20,00 <br/> 0 nota(s) de R$ 10,00 <br/> 1 nota(s) de R$ 5,00 <br/> 1 nota(s) de R$ 2,00 <br/> 0 nota(s) de R$ 1,00 |
+
+| Exemplos de Entrada      | Exemplos de Saída        |
+|--------------------------|---------------------------|
+| 503                      | 503 <br/> 5 nota(s) de R$ 100,00 <br/> 0 nota(s) de R$ 50,00 <br/> 0 nota(s) de R$ 20,00 <br/> 0 nota(s) de R$ 10,00 <br/> 0 nota(s) de R$ 5,00 <br/> 1 nota(s) de R$ 2,00 <br/> 1 nota(s) de R$ 1,00 |
+
+&nbsp;
 
 ### C99
 

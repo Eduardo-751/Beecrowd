@@ -1,57 +1,25 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1173 - Preenchimento de Vetor I</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Leia um valor e faça um programa que coloque o valor lido na
-            primeira posição de um vetor N[10]. Em cada posição subsequente,
-            coloque o dobro do valor da posição anterior. Por exemplo, se o
-            valor lido for 1, os valores do vetor devem ser 1,2,4,8 e assim
-            sucessivamente. Mostre o vetor em seguida.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>A entrada contém um valor inteiro <strong>(V&lt;=50)</strong>.</p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Para cada posição do vetor, escreva "N[<strong>i</strong>] =
-            <strong>X</strong>", onde <strong>i</strong> é a posição do vetor e
-            <strong>X</strong> é o valor armazenado na posição
-            <strong>i</strong>. O primeiro número do vetor N (N[0]) irá receber
-            o valor de V.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplo de Entrada</td>
-              <td>Exemplo de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>1</p>
-              </td>
-              <td>
-                <p>
-                  N[0] = 1<br />
-                  N[1] = 2<br />
-                  N[2] = 4<br />
-                  ...
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1173 - Preenchimento de Vetor I
+===============================
+
+Leia um valor e faça um programa que coloque o valor lido na primeira posição de um vetor N\[10\]. Em cada posição subsequente, coloque o dobro do valor da posição anterior. Por exemplo, se o valor lido for 1, os valores do vetor devem ser 1,2,4,8 e assim sucessivamente. Mostre o vetor em seguida.
+
+Entrada
+-------
+
+A entrada contém um valor inteiro **(V<=50)**.
+
+Saída
+-----
+
+Para cada posição do vetor, escreva "N\[**i**\] = **X**", onde **i** é a posição do vetor e **X** é o valor armazenado na posição **i**. O primeiro número do vetor N (N\[0\]) irá receber o valor de V.
+
+&nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída         |
+|---------------------|---------------------------|
+| 1                   | N\[0\] = 1 <br/> N\[1\] = 2 <br/> N\[2\] = 4 <br/> ... |
+
+&nbsp;
 
 ### C99
 

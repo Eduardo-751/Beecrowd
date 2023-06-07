@@ -1,66 +1,27 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1158 - Soma de Ímpares Consecutivos III</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Leia um valor inteiro <strong>N</strong> que é a quantidade de casos
-            de teste que vem a seguir. Cada caso de teste consiste de dois
-            inteiros <strong>X</strong> e <strong>Y</strong>. Você deve
-            apresentar a soma de <strong>Y </strong>ímpares consecutivos a
-            partir de&nbsp;<strong>X </strong>inclusive o próprio X se ele for
-            ímpar. Por exemplo:<br />
-            para a entrada 4 5, a saída deve ser 45, que é equivalente à: 5 + 7
-            + 9 + 11 + 13<br />
-            para a entrada 7 4, a saída deve ser 40, que é equivalente à: 7 + 9
-            + 11 + 13
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            A primeira linha de entrada é um inteiro <strong>N </strong>que é a
-            quantidade de casos de teste que vem a seguir. Cada caso de teste
-            consiste em uma linha contendo dois inteiros <strong>X</strong> e
-            <strong>Y</strong>.
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Imprima a soma dos consecutivos números ímpares a partir do valor
-            <strong>X</strong>.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplo de Entrada</td>
-              <td>Exemplo de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  2<br />
-                  4 3<br />
-                  11 2
-                </p>
-              </td>
-              <td>
-                <p>
-                  21<br />
-                  24
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1158 - Soma de Ímpares Consecutivos III
+=======================================
+
+Leia um valor inteiro **N** que é a quantidade de casos de teste que vem a seguir. Cada caso de teste consiste de dois inteiros **X** e **Y**. Você deve apresentar a soma de **Y** ímpares consecutivos a partir de **X** inclusive o próprio X se ele for ímpar. Por exemplo:  
+para a entrada 4 5, a saída deve ser 45, que é equivalente à: 5 + 7 + 9 + 11 + 13  
+para a entrada 7 4, a saída deve ser 40, que é equivalente à: 7 + 9 + 11 + 13
+
+Entrada
+-------
+
+A primeira linha de entrada é um inteiro **N** que é a quantidade de casos de teste que vem a seguir. Cada caso de teste consiste em uma linha contendo dois inteiros **X** e **Y**.
+
+Saída
+-----
+
+Imprima a soma dos consecutivos números ímpares a partir do valor **X**.
+
+&nbsp;
+
+| Exemplos de Entrada    | Exemplos de Saída         |
+|------------------------|---------------------------|
+| 2 <br/> 4 3 <br/> 11 2 | 21 <br/> 24               |
+
+&nbsp;
 
 ### C99
 

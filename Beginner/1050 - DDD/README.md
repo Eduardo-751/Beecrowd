@@ -1,61 +1,30 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1050 - DDD</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Leia um número inteiro que representa um código de DDD para discagem
-            interurbana. Em seguida, informe à qual cidade o DDD pertence,
-            considerando a tabela abaixo:
-          </p>
-          <br />
-          <p class="center">
-            <img
-              alt=""
-              src="https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1050.png"
-              style="width: 368px; height: 175px"
-            />
-          </p>
-          <p>
-            Se a entrada for qualquer outro DDD que não esteja presente na
-            tabela acima, o programa deverá informar:<br />
-            DDD nao cadastrado
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>A entrada consiste de um único valor inteiro.</p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Imprima o nome da cidade correspondente ao DDD existente na entrada.
-            Imprima <em>DDD nao cadastrado</em> caso não existir DDD
-            correspondente ao número digitado.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplo de Entrada</td>
-              <td>Exemplo de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>11</p>
-              </td>
-              <td>
-                <p>Sao Paulo</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1050 - DDD
+==========
+
+Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:
+
+![](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1050.png)
+
+Se a entrada for qualquer outro DDD que não esteja presente na tabela acima, o programa deverá informar:  
+DDD nao cadastrado
+
+Entrada
+-------
+
+A entrada consiste de um único valor inteiro.
+
+Saída
+-----
+
+Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima _DDD nao cadastrado_ caso não existir DDD correspondente ao número digitado.
+
+&nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída |
+|---------------------|-------------------|
+| 11                  | Sao Paulo         |
+
+&nbsp;
 
 ### C99
 

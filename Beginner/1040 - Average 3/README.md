@@ -1,122 +1,35 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1040 - Média 3</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Leia quatro números (N<sub>1</sub>, N<sub>2</sub>, N<sub>3</sub>,
-            N<sub>4</sub>), cada um deles com uma casa decimal, correspondente
-            às quatro notas de um aluno. Calcule a média com pesos 2, 3, 4 e 1,
-            respectivamente, para cada uma destas notas e mostre esta média
-            acompanhada pela mensagem <em>"Media: "</em>. Se esta média for
-            maior ou igual a 7.0, imprima a mensagem <em>"Aluno aprovado."</em>.
-            Se a média calculada for inferior a 5.0, imprima a mensagem
-            <em>"Aluno reprovado."</em>. Se a média calculada for um valor entre
-            5.0 e 6.9, inclusive estas, o programa deve imprimir a mensagem
-            <em>"Aluno em exame."</em>.
-          </p>
-          <p>
-            No caso do aluno estar em exame, leia um valor correspondente à nota
-            do exame obtida pelo aluno. Imprima então a mensagem
-            <em>"Nota do exame: "</em> acompanhada pela nota digitada. Recalcule
-            a média (some a pontuação do exame com a média anteriormente
-            calculada e divida por 2). e imprima a mensagem
-            <em>"Aluno aprovado."</em> (caso a média final seja 5.0 ou mais ) ou
-            <em>"Aluno reprovado."</em>, (caso a média tenha ficado 4.9 ou
-            menos). Para estes dois casos (aprovado ou reprovado após ter pego
-            exame) apresente na última linha uma mensagem
-            <em>"Media final: "</em> seguido da média final para esse aluno.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            A entrada contém quatro números de ponto flutuante correspendentes
-            as notas dos alunos.
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Todas as respostas devem ser apresentadas com uma casa decimal. As
-            mensagens devem ser impressas conforme a descrição do problema. Não
-            esqueça de imprimir o <em>enter</em> após o final de cada linha,
-            caso contrário obterá "Presentation Error".
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  2.0 4.0 7.5 8.0<br />
-                  6.4
-                </p>
-              </td>
+1040 - Média 3
+==============
 
-              <td>
-                <p>
-                  Media: 5.4<br />
-                  Aluno em exame.<br />
-                  Nota do exame: 6.4<br />
-                  Aluno aprovado.<br />
-                  Media final: 5.9
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>2.0 6.5 4.0 9.0</p>
-              </td>
+Leia quatro números (N1, N2, N3, N4), cada um deles com uma casa decimal, correspondente às quatro notas de um aluno. Calcule a média com pesos 2, 3, 4 e 1, respectivamente, para cada uma destas notas e mostre esta média acompanhada pela mensagem _"Media: "_. Se esta média for maior ou igual a 7.0, imprima a mensagem _"Aluno aprovado."_. Se a média calculada for inferior a 5.0, imprima a mensagem _"Aluno reprovado."_. Se a média calculada for um valor entre 5.0 e 6.9, inclusive estas, o programa deve imprimir a mensagem _"Aluno em exame."_.
 
-              <td>
-                <p></p>
-                <p>
-                  Media: 4.8<br />
-                  Aluno reprovado.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>9.0 4.0 8.5 9.0</p>
-              </td>
-              <td>
-                <p>
-                  Media: 7.3<br />
-                  Aluno aprovado.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+No caso do aluno estar em exame, leia um valor correspondente à nota do exame obtida pelo aluno. Imprima então a mensagem _"Nota do exame: "_ acompanhada pela nota digitada. Recalcule a média (some a pontuação do exame com a média anteriormente calculada e divida por 2). e imprima a mensagem _"Aluno aprovado."_ (caso a média final seja 5.0 ou mais ) ou _"Aluno reprovado."_, (caso a média tenha ficado 4.9 ou menos). Para estes dois casos (aprovado ou reprovado após ter pego exame) apresente na última linha uma mensagem _"Media final: "_ seguido da média final para esse aluno.
 
-  </body>
-</html>
+Entrada
+-------
+
+A entrada contém quatro números de ponto flutuante correspendentes as notas dos alunos.
+
+Saída
+-----
+
+Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens devem ser impressas conforme a descrição do problema. Não esqueça de imprimir o _enter_ após o final de cada linha, caso contrário obterá "Presentation Error".
+
+&nbsp;
+
+| Exemplos de Entrada       | Exemplos de Saída           |
+|---------------------------|-----------------------------|
+| 2.0 4.0 7.5 8.0 <br/> 6.4 | Media: 5.4 <br/> Aluno em exame. <br/> Nota do exame: 6.4 <br/> Aluno aprovado. <br/> Media final: 5.9 |
+
+| Exemplos de Entrada | Exemplos de Saída                 |
+|---------------------|-----------------------------------|
+| 2.0 6.5 4.0 9.0     | Media: 4.8 <br/> Aluno reprovado. |
+
+| Exemplos de Entrada | Exemplos de Saída                |
+|---------------------|----------------------------------|
+| 9.0 4.0 8.5 9.0     | Media: 7.3 <br/> Aluno aprovado. |
+
+&nbsp;
 
 ### C99
 

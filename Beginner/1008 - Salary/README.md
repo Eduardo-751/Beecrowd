@@ -1,107 +1,33 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1008 - Salário</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Escreva um programa que leia o número de um funcionário, seu número
-            de horas trabalhadas, o valor que recebe por hora e calcula o
-            salário desse funcionário. A seguir, mostre o número e o salário do
-            funcionário, com duas casas decimais.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            O arquivo de entrada contém 2 números inteiros e 1 número com duas
-            casas decimais, representando o número, quantidade de horas
-            trabalhadas e o valor que o funcionário recebe por hora trabalhada,
-            respectivamente.
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Imprima o número e o salário do funcionário, conforme exemplo
-            fornecido, com um espaço em branco antes e depois da igualdade. No
-            caso do salário, também deve haver um espaço em branco após o $.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  25<br />
-                  100<br />
-                  5.50
-                </p>
-              </td>
-              <td>
-                <p>
-                  NUMBER = 25<br />
-                  SALARY = U$ 550.00
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  1<br />
-                  200<br />
-                  20.50
-                </p>
-              </td>
-              <td>
-                <p>
-                  NUMBER = 1<br />
-                  SALARY = U$ 4100.00
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplos de Entrada</td>
-              <td>Exemplos de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  6<br />
-                  145<br />
-                  15.55
-                </p>
-              </td>
-              <td>
-                <p>
-                  NUMBER = 6<br />
-                  SALARY = U$ 2254.75
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1008 - Salário
+==============
+
+Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
+
+Entrada
+-------
+
+O arquivo de entrada contém 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada, respectivamente.
+
+Saída
+-----
+
+Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
+
+&nbsp;
+
+| Exemplos de Entrada     | Exemplos de Saída                    |
+|-------------------------|--------------------------------------|
+| 25 <br/> 100 <br/> 5.50 | NUMBER = 25 <br/> SALARY = U$ 550.00 |
+
+| Exemplos de Entrada     | Exemplos de Saída                    |
+|-------------------------|--------------------------------------|
+| 1 <br/> 200 <br/> 20.50 | NUMBER = 1 <br/> SALARY = U$ 4100.00 |
+
+| Exemplos de Entrada     | Exemplos de Saída                    |
+|-------------------------|--------------------------------------|
+| 1 <br/> 145 <br/> 15.55 | NUMBER = 6 <br/> SALARY = U$ 2254.75 |
+
+&nbsp;
 
 ### C99
 

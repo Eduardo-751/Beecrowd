@@ -1,71 +1,25 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1074 - Par ou Ímpar</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Leia um valor inteiro <strong>N</strong>. Este valor será a
-            quantidade de valores que serão lidos em seguida. Para cada valor
-            lido, mostre uma mensagem em inglês dizendo se este valor lido é par
-            (<em>EVEN</em>), ímpar (<em>ODD</em>), positivo (<em>POSITIVE</em>)
-            ou negativo (<em>NEGATIVE</em>). No caso do valor ser igual a zero
-            (0), embora a descrição correta seja (<em>EVEN NULL</em>), pois por
-            definição zero é par, seu programa deverá imprimir apenas
-            <em>NULL</em>.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            A primeira linha da entrada contém um valor inteiro
-            <strong>N</strong>(<strong>N </strong>&lt; 10000) que indica o
-            número de casos de teste. Cada caso de teste a seguir é um valor
-            inteiro <strong>X </strong>(-10<sup>7</sup> &lt;
-            <strong>X</strong> &lt;10<sup>7</sup>).
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Para cada caso, imprima uma mensagem correspondente, de acordo com o
-            exemplo abaixo. Todas as letras deverão ser maiúsculas e sempre
-            deverá haver um espaço <strong>entre</strong> duas palavras
-            impressas na mesma linha.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplo de Entrada</td>
-              <td>Exemplo de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  4<br />
-                  -5<br />
-                  0<br />
-                  3<br />
-                  -4
-                </p>
-              </td>
-              <td>
-                <p>
-                  ODD NEGATIVE<br />
-                  NULL<br />
-                  ODD POSITIVE<br />
-                  EVEN NEGATIVE
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1074 - Par ou Ímpar
+===================
+
+Leia um valor inteiro **N**. Este valor será a quantidade de valores que serão lidos em seguida. Para cada valor lido, mostre uma mensagem em inglês dizendo se este valor lido é par (_EVEN_), ímpar (_ODD_), positivo (_POSITIVE_) ou negativo (_NEGATIVE_). No caso do valor ser igual a zero (0), embora a descrição correta seja (_EVEN NULL_), pois por definição zero é par, seu programa deverá imprimir apenas _NULL_.
+
+Entrada
+-------
+
+A primeira linha da entrada contém um valor inteiro **N**(**N** < 10000) que indica o número de casos de teste. Cada caso de teste a seguir é um valor inteiro **X** (-107 < **X** <107).
+
+Saída
+-----
+
+Para cada caso, imprima uma mensagem correspondente, de acordo com o exemplo abaixo. Todas as letras deverão ser maiúsculas e sempre deverá haver um espaço **entre** duas palavras impressas na mesma linha.
+
+&nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída |
+|---------------------|-------------------|
+| 4 <br/> -5 <br/> 0 <br/> 3 <br/> -4 | ODD NEGATIVE <br/> NULL <br/> ODD NEGATIVE EVEN <br/> NEGATIVE |
+
+&nbsp;
 
 ### C99
 

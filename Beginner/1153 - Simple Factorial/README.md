@@ -1,45 +1,25 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1153 - Fatorial Simples</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Ler um valor N. Calcular e escrever seu respectivo fatorial.
-            Fatorial de N = N * (N-1) * (N-2) * (N-3) * ... * 1.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>A entrada contém um valor inteiro N (0 &lt; N &lt; 13).</p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            A saída contém um valor inteiro, correspondente ao fatorial de N.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplo de Entrada</td>
-              <td>Exemplo de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>4</p>
-              </td>
-              <td>
-                <p>24</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1153 - Fatorial Simples
+=======================
+
+Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N \* (N-1) \* (N-2) \* (N-3) \* ... \* 1.
+
+Entrada
+-------
+
+A entrada contém um valor inteiro N (0 < N < 13).
+
+Saída
+-----
+
+A saída contém um valor inteiro, correspondente ao fatorial de N.
+
+&nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída    |
+|---------------------|----------------------|
+| 4                   | 24                   |
+
+&nbsp;
 
 ### C99
 

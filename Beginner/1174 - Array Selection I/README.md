@@ -1,63 +1,25 @@
-<html>
-  <body style="padding: 10px 0px">
-    <div class="header">
-      <h1>1174 - Seleçao em Vetor I</h1>
-      <div class="problem">
-        <div class="description">
-          <p>
-            Faça um programa que leia um vetor A[100]. No final, mostre todas as
-            posições do vetor que armazenam um valor menor ou igual a 10 e o
-            valor armazenado em cada uma das posições.
-          </p>
-        </div>
-        <h2>Entrada</h2>
-        <div class="input">
-          <p>
-            A entrada contém 100 valores, podendo ser inteiros, reais, positivos
-            ou negativos.
-          </p>
-        </div>
-        <h2>Saída</h2>
-        <div class="output">
-          <p>
-            Para cada valor do vetor menor ou igual a 10, escreva
-            "A[<strong>i</strong>] = <strong>x</strong>", onde
-            <strong>i</strong> é&nbsp;a posição do vetor e <strong>x</strong> é
-            o valor armazenado na posição, com uma casa após o ponto decimal.
-          </p>
-        </div>
-        <div class="both"></div>
-        <table>
-          <tbody>
-            <tr>
-              <td>Exemplo de Entrada</td>
-              <td>Exemplo de Saída</td>
-            </tr>
-            <tr>
-              <td class="division">
-                <p>
-                  0<br />
-                  -5<br />
-                  63<br />
-                  -8.5<br />
-                  ...
-                </p>
-              </td>
-              <td>
-                <p>
-                  A[0] = 0.0<br />
-                  A[1] = -5.0<br />
-                  A[3] = -8.5<br />
-                  ...
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
+1174 - Seleçao em Vetor I
+=========================
+
+Faça um programa que leia um vetor A\[100\]. No final, mostre todas as posições do vetor que armazenam um valor menor ou igual a 10 e o valor armazenado em cada uma das posições.
+
+Entrada
+-------
+
+A entrada contém 100 valores, podendo ser inteiros, reais, positivos ou negativos.
+
+Saída
+-----
+
+Para cada valor do vetor menor ou igual a 10, escreva "A\[**i**\] = **x**", onde **i** é a posição do vetor e **x** é o valor armazenado na posição, com uma casa após o ponto decimal.
+
+&nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída         |
+|---------------------|---------------------------|
+| 0 <br/> -5 <br/> 63 <br/> -8.5 <br/> ... | A[0] = 0.0 <br/> A[1] = -5.0 <br/> A[3] = -8.5 <br/> ... |
+
+&nbsp;
 
 ### C99
 
