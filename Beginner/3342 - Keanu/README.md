@@ -24,7 +24,7 @@ Entrada
 
 O input consiste de uma linha com um único inteiro **n**.
 
-2 \\(\\le\\) **n** \\(\\le\\) 100
+2 ≤ n ≤ 100
 
 Saída
 -----
