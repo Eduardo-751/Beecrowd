@@ -7,13 +7,13 @@ Quantas casas brancas e quantas casas pretas tem um tabuleiro de xadrez de taman
   
 Tabuleiro 3x3:
 
-![](https://resources.beecrowd.com.br/gallery/images/contests/UOJ_3668-a.png)
+<img src=https://resources.beecrowd.com.br/gallery/images/contests/UOJ_3668-a.png width="150" height="150">
 
 5 casas brancas e 4 casas pretas
 
 Tabuleiro 4x4:
 
-![](https://resources.beecrowd.com.br/gallery/images/contests/UOJ_3668-b.png)
+<img src=https://resources.beecrowd.com.br/gallery/images/contests/UOJ_3668-b.png width="150" height="150">
 
 8 casas brancas e 8 casas pretas
 
@@ -24,7 +24,7 @@ Entrada
 
 O input consiste de uma linha com um único inteiro **n**.
 
-2 \\(\\le\\) **n** \\(\\le\\) 100
+2 ≤ n ≤ 100
 
 Saída
 -----
