@@ -8,12 +8,12 @@
 This repository contains my Beecrowd solutions.
 
 | Category | Documented | Total problems |
-| -- | -- | -- |
-| [Beginner](./Beginner) | 97 | 336 |
-| [Ad-Hoc](./AD-HOC) | 3 | 787 |
-| [Strings](./Strings) | 2 | 148 |
-| [Data Structure sand Libraries](./Data%20Structures%20and%20Libraries) | 1 | 179 |
-| [Mathematics](./Mathematics) | 2 | 269 |
+| -- |:--:|:--:|
+| [Beginner](./Beginner/README.md) | 98 | 336 |
+| [Ad-Hoc](./AD-HOC/README.md) | 3 | 787 |
+| [Strings](./Strings/README.md) | 2 | 148 |
+| [Data Structure sand Libraries](./Data%20Structures%20and%20Libraries/README.md) | 1 | 179 |
+| [Mathematics](./Mathematics/README.md) | 2 | 269 |
 | Paradigms | 0 | 215 |
 | Graph | 0 | 277 |
 | Computational Geometry | 0 | 82 |

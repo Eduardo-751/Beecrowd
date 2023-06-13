@@ -17,12 +17,13 @@ Para cada caso de teste de entrada, seu programa deverá desenhar uma árvore co
 
 
 &nbsp;
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
-| 9 | * <br/> *** <br/> ***** <br/> ******* <br/>n********* <br/>  *  <br/> *** |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+|---------------------|:-----------------:|
+| 9 | * <br/> *** <br/> ***** <br/> ******* <br/>********* <br/>  *  <br/> *** |
+
+| Exemplos de Entrada | Exemplos de Saída |
+|---------------------|:-----------------:|
 | 5 | * <br/> *** <br/> ***** <br/> * <br/> *** |
 
 &nbsp;
