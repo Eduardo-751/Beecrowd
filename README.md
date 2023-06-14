@@ -1,11 +1,13 @@
  
 <a href="https://www.beecrowd.com.br"><p align="center"><img src="https://user-images.githubusercontent.com/31783838/144611708-e6c3f393-05f2-4982-8b6d-f0684227e782.png" height="96"/></p></a>
-
-<br/>
+<br/><br/>
 
 ## Beecrowd Solutions
 
 This repository contains my Beecrowd solutions.
+<br/><br/>
+
+## Problems Solved
 
 | Category | Documented | Total problems |
 | -- |:--:|:--:|
@@ -18,8 +20,8 @@ This repository contains my Beecrowd solutions.
 | Graph | 0 | 277 |
 | Computational Geometry | 0 | 82 |
 | [SQL](./Sql) | 17 | 46 |
-| | | |
 | Total | 121 | 2339 |
+
 <br/>
 
 ## About Beecrowd
@@ -30,4 +32,4 @@ Problems available on the platform can be solved with different programming lang
 
 #### Beecrowd Profile:
 
-[Eduardo Camargo](https://www.beecrowd.com.br/judge/pt/profile/377804)
+[View Profile](https://www.beecrowd.com.br/judge/pt/profile/377804)
