@@ -4,7 +4,7 @@
 
 ## Beecrowd Solutions
 
-This repository contains my Beecrowd solutions.
+This repository contains my solutions to programming problems from Beecrowd, a competitive programming platform. The solutions are implemented in various programming languages and are organized based on problem categories.
 <br/><br/>
 
 ## Problems Solved
@@ -25,10 +25,9 @@ This repository contains my Beecrowd solutions.
 <br/>
 
 ## About Beecrowd
-Beecrowd is an online platform created with the aim of providing its users with learning, practice and improvement of their skills in media by solving various programming problems.
-Problems available on the platform can be solved with different programming languages.
+[Beecrowd](https://beecrowd.com.br/) is a competitive programming platform that offers a wide range of coding challenges and contests. This repository serves as a collection of my solutions to these challenges. Each solution is carefully implemented and thoroughly tested.
 
-[Beecrowd Website](https://www.beecrowd.com.br)
+Feel free to explore the different problem categories and their respective solutions. Each solution folder contains a detailed explanation of the problem, the approach used, and the implementation.
 
 #### Beecrowd Profile:
 
