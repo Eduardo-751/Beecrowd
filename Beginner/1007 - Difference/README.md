@@ -1,31 +1,28 @@
-1007 - Diferença
-================
+# 1007 - Diferença
 
 Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A \* B - C \* D).
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém 4 valores inteiros.
 
-Saída
------
+## Saída
 
 Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.
 
 &nbsp;
 
-| Exemplos de Entrada       | Exemplos de Saída      |
-|---------------------------|------------------------|
-| 5 <br/> 6 <br/> 7 <br/> 8 | DIFERENCA = -26        |
+| Exemplos de Entrada       | Exemplos de Saída |
+| ------------------------- | ----------------- |
+| 5 <br/> 6 <br/> 7 <br/> 8 | DIFERENCA = -26   |
 
-| Exemplos de Entrada       | Exemplos de Saída      |
-|---------------------------|------------------------|
-| 0 <br/> 0 <br/> 7 <br/> 8 | DIFERENCA = -56        |
+| Exemplos de Entrada       | Exemplos de Saída |
+| ------------------------- | ----------------- |
+| 0 <br/> 0 <br/> 7 <br/> 8 | DIFERENCA = -56   |
 
-| Exemplos de Entrada       | Exemplos de Saída      |
-|---------------------------|------------------------|
-| 5 <br/> 6 <br/> -7 <br/> 8| DIFERENCA = 86         |
+| Exemplos de Entrada        | Exemplos de Saída |
+| -------------------------- | ----------------- |
+| 5 <br/> 6 <br/> -7 <br/> 8 | DIFERENCA = 86    |
 
 &nbsp;
 
@@ -44,6 +41,27 @@ int main()
     printf("DIFERENCA = %i\n", DIFERENCA);
 
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
+        int C = int.Parse(Console.ReadLine());
+        int D = int.Parse(Console.ReadLine());
+
+        int diferenca = ((A * B) - (C * D));
+
+        Console.WriteLine($"DIFERENCA = {diferenca}");
+    }
 }
 ```
 
@@ -67,27 +85,6 @@ class Main {
         int diferenca = ((A * B) - (C * D));
 
         System.out.printf("DIFERENCA = %d\n", diferenca);
-    }
-}
-```
-
-### C#
-
-```cs
-using System;
-
-class URI
-{
-    static void Main(string[] args)
-    {
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-        int C = int.Parse(Console.ReadLine());
-        int D = int.Parse(Console.ReadLine());
-
-        int diferenca = ((A * B) - (C * D));
-
-        Console.WriteLine($"DIFERENCA = {diferenca}");
     }
 }
 ```

@@ -1,5 +1,4 @@
-1013 - O Maior
-==============
+# 1013 - O Maior
 
 Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
 
@@ -7,25 +6,23 @@ Faça um programa que leia três valores e apresente o maior dos três valores l
 
 Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém três valores inteiros.
 
-Saída
------
+## Saída
 
 Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
 &nbsp;
 
-| Exemplos de Entrada      | Exemplos de Saída        |
-|--------------------------|--------------------------|
-| 7 14 106                 | 106 eh o maior           |
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------------- | ----------------- |
+| 7 14 106            | 106 eh o maior    |
 
-| Exemplos de Entrada      | Exemplos de Saída        |
-|--------------------------|--------------------------|
-| 217 14 6                 | 217 eh o maior           |
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------------- | ----------------- |
+| 217 14 6            | 217 eh o maior    |
 
 &nbsp;
 
@@ -45,6 +42,29 @@ int main()
     else
         printf("%i eh o maior\n", c);
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        String[] input = Console.ReadLine().Trim().Split(' ');
+        int A = int.Parse(input[0]);
+        int B = int.Parse(input[1]);
+        int C = int.Parse(input[2]);
+
+        int aux = (A + B + Math.Abs(A-B)) / 2;
+        if (aux > C)
+            Console.WriteLine($"{aux} eh o maior");
+        else
+            Console.WriteLine($"{C} eh o maior");
+    }
 }
 ```
 
@@ -70,29 +90,6 @@ class Main {
             System.out.printf("%d eh o maior\n", aux);
         else
             System.out.printf("%d eh o maior\n", C);
-    }
-}
-```
-
-### C#
-
-```cs
-using System;
-
-class URI
-{
-    static void Main(string[] args)
-    {
-        String[] input = Console.ReadLine().Trim().Split(' ');
-        int A = int.Parse(input[0]);
-        int B = int.Parse(input[1]);
-        int C = int.Parse(input[2]);
-
-        int aux = (A + B + Math.Abs(A-B)) / 2;
-        if (aux > C)
-            Console.WriteLine($"{aux} eh o maior");
-        else
-            Console.WriteLine($"{C} eh o maior");
     }
 }
 ```

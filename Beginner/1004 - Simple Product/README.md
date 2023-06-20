@@ -1,30 +1,27 @@
-1004 - Produto Simples
-======================
+# 1004 - Produto Simples
 
-Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável **PROD**. A seguir mostre a variável **PROD** com mensagem correspondente.   
+Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável **PROD**. A seguir mostre a variável **PROD** com mensagem correspondente.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém 2 valores inteiros.
 
-Saída
------
+## Saída
 
 Imprima a mensagem "PROD" e a variável **PROD** conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: _“Presentation Error”_.
 
 &nbsp;
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 3 <br/> 9           | PROD = 27         |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | -30 <br/> 10        | PROD = -300       |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 0 <br/> 9           | PROD = 0          |
 
 &nbsp;
@@ -46,6 +43,21 @@ int main(){
 }
 ```
 
+### C#
+
+```cs
+using System;
+
+class URI {
+    static void Main(string[] args) {
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"PROD = {A * B}");
+    }
+}
+```
+
 ### Java
 
 ```java
@@ -62,21 +74,6 @@ class Main {
         int B = Integer.parseInt(in.readLine());
 
         System.out.printf("PROD = %d\n", A * B);
-    }
-}
-```
-
-### C#
-
-```cs
-using System;
-
-class URI {
-    static void Main(string[] args) {
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-
-        Console.WriteLine($"PROD = {A * B}");
     }
 }
 ```

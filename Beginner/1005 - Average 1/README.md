@@ -1,30 +1,27 @@
-105 - Média 1
-=============
+# 105 - Média 1
 
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
-Saída
------
+## Saída
 
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 &nbsp;
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 5.0 <br/> 7.1       | MEDIA = 6.43182   |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 0 <br/> 7.1         | MEDIA = 4.84091   |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 10.0 <br/> 10.0     | MEDIA = 10.00000  |
 
 &nbsp;
@@ -47,6 +44,23 @@ int main()
 }
 ```
 
+### C#
+
+```cs
+using System;
+
+class URI {
+    static void Main(string[] args) {
+        double A = double.Parse(Console.ReadLine());
+        double B = double.Parse(Console.ReadLine());
+
+        double media = (3.5 * A + 7.5 * B) / 11;
+
+        Console.WriteLine($"MEDIA = {media:0.00000}");
+    }
+}
+```
+
 ### Java
 
 ```java
@@ -65,23 +79,6 @@ class Main {
         double media = (3.5 * A + 7.5 * B) / 11;
 
         System.out.printf("MEDIA = %.5f\n", media);
-    }
-}
-```
-
-### C#
-
-```cs
-using System;
-
-class URI {
-    static void Main(string[] args) {
-        double A = double.Parse(Console.ReadLine());
-        double B = double.Parse(Console.ReadLine());
-
-        double media = (3.5 * A + 7.5 * B) / 11;
-
-        Console.WriteLine($"MEDIA = {media:0.00000}");
     }
 }
 ```

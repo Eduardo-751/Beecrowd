@@ -1,32 +1,29 @@
-1002 - Área do Círculo
-======================
+# 1002 - Área do Círculo
 
 A fórmula para calcular a área de uma circunferência é: **area = π . raio2**. Considerando para este problema que **π =** 3.14159:
 
 \- Efetue o cálculo da área, elevando o valor de **raio** ao quadrado e multiplicando por **π**.
 
-Entrada
--------
+## Entrada
 
 A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a variável **raio**.
 
-Saída
------
+## Saída
 
 Apresentar a mensagem "A=" seguido pelo valor da variável **area**, conforme exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 &nbsp;
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 2.00                | A=12.5664         |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 100.64              | A=31819.3103      |
 
 | Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| ------------------- | ----------------- |
 | 150.00              | A=70685.7750      |
 
 &nbsp;
@@ -44,6 +41,19 @@ int main()
     printf("A=%.4lf\n", 3.14159 * raio * raio);
 
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI {
+    static void Main(string[] args) {
+        double raio = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"A={3.14159*raio*raio:0.0000}");
+    }
 }
 ```
 
@@ -65,19 +75,6 @@ class Main {
     }
 }
 
-```
-
-### C#
-
-```cs
-using System;
-
-class URI {
-    static void Main(string[] args) {
-        double raio = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine($"A={3.14159*raio*raio:0.0000}");
-    }
-}
 ```
 
 ### Python 3.9

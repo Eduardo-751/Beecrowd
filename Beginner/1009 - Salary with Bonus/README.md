@@ -1,31 +1,28 @@
-1009 - Salário com Bônus
-========================
+# 1009 - Salário com Bônus
 
 Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente.
 
-Saída
------
+## Saída
 
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
 &nbsp;
 
-| Exemplos de Entrada                   | Exemplos de Saída                     |
-|---------------------------------------|---------------------------------------|
-| JOAO <br/> 500.00  <br/> 1230.30      | TOTAL = R$ 684.54                     |
+| Exemplos de Entrada             | Exemplos de Saída |
+| ------------------------------- | ----------------- |
+| JOAO <br/> 500.00 <br/> 1230.30 | TOTAL = R$ 684.54 |
 
-| Exemplos de Entrada                   | Exemplos de Saída                     |
-|---------------------------------------|---------------------------------------|
-| PEDRO  <br/> 700.00 <br/> 0.00        | TOTAL = R$ 700.00                     |
+| Exemplos de Entrada           | Exemplos de Saída |
+| ----------------------------- | ----------------- |
+| PEDRO <br/> 700.00 <br/> 0.00 | TOTAL = R$ 700.00 |
 
-| Exemplos de Entrada                   | Exemplos de Saída                     |
-|---------------------------------------|---------------------------------------|
-| MANGOJATA <br/> 1700.00 <br/> 1230.50 | TOTAL = R$ 1884.58                    |
+| Exemplos de Entrada                   | Exemplos de Saída  |
+| ------------------------------------- | ------------------ |
+| MANGOJATA <br/> 1700.00 <br/> 1230.50 | TOTAL = R$ 1884.58 |
 
 &nbsp;
 
@@ -49,6 +46,26 @@ int main()
 }
 ```
 
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        String name = Console.ReadLine();
+        double A = Double.Parse(Console.ReadLine());
+        double B = Double.Parse(Console.ReadLine());
+
+        double salario = A + (B * 0.15);
+
+        Console.WriteLine($"TOTAL = R$ {salario:0.00}");
+    }
+}
+```
+
 ### Java
 
 ```java
@@ -68,26 +85,6 @@ class Main {
         double salario = A + (B * 0.15);
 
         System.out.printf("TOTAL = R$ %.2f\n", salario);
-    }
-}
-```
-
-### C#
-
-```cs
-using System;
-
-class URI
-{
-    static void Main(string[] args)
-    {
-        String name = Console.ReadLine();
-        double A = Double.Parse(Console.ReadLine());
-        double B = Double.Parse(Console.ReadLine());
-
-        double salario = A + (B * 0.15);
-
-        Console.WriteLine($"TOTAL = R$ {salario:0.00}");
     }
 }
 ```

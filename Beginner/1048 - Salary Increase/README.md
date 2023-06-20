@@ -1,9 +1,6 @@
-1048 - Aumento de Salário
-=========================
+# 1048 - Aumento de Salário
 
 A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
-
-  
 
 Salário
 
@@ -23,28 +20,26 @@ Acima de 2000.00
 
 Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
 
-Entrada
--------
+## Entrada
 
 A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
 
-Saída
------
+## Saída
 
 Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos devem ser apresentados com 2 casas decimais) e o percentual de reajuste ganho, conforme exemplo abaixo.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída                     |
-|---------------------|---------------------------------------|
-| 400.00              | Novo salario: 460.00 <br/> Reajuste ganho: 60.00 <br/> Em percentual: 15 %  |
+| Exemplos de Entrada | Exemplos de Saída                                                          |
+| ------------------- | -------------------------------------------------------------------------- |
+| 400.00              | Novo salario: 460.00 <br/> Reajuste ganho: 60.00 <br/> Em percentual: 15 % |
 
-| Exemplos de Entrada | Exemplos de Saída                     |
-|---------------------|---------------------------------------|
-| 800.01              | Novo salario: 880.01 <br/> Reajuste ganho: 80.00 <br/> Em percentual: 10 %  |
+| Exemplos de Entrada | Exemplos de Saída                                                          |
+| ------------------- | -------------------------------------------------------------------------- |
+| 800.01              | Novo salario: 880.01 <br/> Reajuste ganho: 80.00 <br/> Em percentual: 10 % |
 
-| Exemplos de Entrada | Exemplos de Saída                     |
-|---------------------|---------------------------------------|
+| Exemplos de Entrada | Exemplos de Saída                                                           |
+| ------------------- | --------------------------------------------------------------------------- |
 | 2000.00             | Novo salario: 2140.00 <br/> Reajuste ganho: 140.00 <br/> Em percentual: 7 % |
 
 &nbsp;
@@ -78,5 +73,35 @@ int main()
     printf("Em percentual: %d \%\n", aux);
 
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        double input = double.Parse(Console.ReadLine());
+        double increase;
+
+        if (input <= 400)
+            increase = 0.15;
+        else if (input <= 800)
+            increase = 0.12;
+        else if (input <= 1200)
+            increase = 0.10;
+        else if (input <= 2000)
+            increase = 0.07;
+        else
+            increase = 0.04;
+        double salary = input * increase;
+        Console.WriteLine($"Novo salario: {salary+input:0.00}");
+        Console.WriteLine($"Reajuste ganho: {salary:0.00}");
+        Console.WriteLine($"Em percentual: {increase*100} %");
+    }
 }
 ```
