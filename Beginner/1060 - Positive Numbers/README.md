@@ -1,23 +1,20 @@
-1060 - Números Positivos
-========================
+# 1060 - Números Positivos
 
 Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
 
-Entrada
--------
+## Entrada
 
 Seis valores, negativos e/ou positivos.
 
-Saída
------
+## Saída
 
 Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
-| 7 <br/> -5  6  <br/> -3.4 <br/> 4.6 <br/> 12 | 4 valores positivos |
+| Exemplos de Entrada                        | Exemplos de Saída   |
+| ------------------------------------------ | ------------------- |
+| 7 <br/> -5 6 <br/> -3.4 <br/> 4.6 <br/> 12 | 4 valores positivos |
 
 &nbsp;
 
@@ -39,5 +36,32 @@ int main(){
     }
     printf("%i valores positivos\n", a);
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+
+        int positivos = 0;
+
+        for (int i = 0; i < 6; i++)
+        {
+            double valor = double.Parse(Console.ReadLine());
+            if (valor > 0)
+            {
+                positivos++;
+            }
+        }
+
+        Console.WriteLine($"{positivos} valores positivos");
+
+    }
 }
 ```

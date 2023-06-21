@@ -38,12 +38,12 @@
 | [📂](./1046%20-%20Game%20Time) 1046 - Game Time                                                           | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1047%20-%20Game%20Time%20with%20Minutes) 1047 - Game Time with Minutes                             | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1048%20-%20Salary%20Increase) 1048 - Salary Increase                                               | ✅  | ✅  |  ❌  |   ❌   |
-| [📂](./1049%20-%20Animal) 1049 - Animal                                                                   | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1050%20-%20DDD) 1050 - DDD                                                                         | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1051%20-%20Taxes) 1051 - Taxes                                                                     | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1052%20-%20Month) 1052 - Month                                                                     | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1059%20-%20Even%20Numbers) 1059 - Even Numbers                                                     | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1060%20-%20Positive%20Numbers) 1060 - Positive Numbers                                             | ✅  | ❌  |  ❌  |   ❌   |
+| [📂](./1049%20-%20Animal) 1049 - Animal                                                                   | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1050%20-%20DDD) 1050 - DDD                                                                         | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1051%20-%20Taxes) 1051 - Taxes                                                                     | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1052%20-%20Month) 1052 - Month                                                                     | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1059%20-%20Even%20Numbers) 1059 - Even Numbers                                                     | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1060%20-%20Positive%20Numbers) 1060 - Positive Numbers                                             | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1061%20-%20Event%20Time) 1061 - Event Time                                                         | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1064%20-%20Positives%20and%20Average) 1064 - Positives and Average                                 | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1065%20-%20Even%20Between%20five%20Numbers) 1065 - Even Between five Numbers                       | ✅  | ❌  |  ❌  |   ❌   |
