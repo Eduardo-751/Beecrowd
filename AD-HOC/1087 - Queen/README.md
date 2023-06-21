@@ -4,24 +4,22 @@ O jogo de xadrez possui várias peças com movimentos curiosos: uma delas é a _
 
 O grande mestre de xadrez Kary Gasparov inventou um novo tipo de problema de xadrez: dada a posição de uma dama em um tabuleiro de xadrez vazio (ou seja, um tabuleiro 8 × 8, com 64 casas), de quantos movimentos, no mínimo, ela precisa para chegar em outra casa do tabuleiro?
 
-Kary achou a solução para alguns desses problemas, mas teve dificuldade com outros, e por isso pediu que você escrevesse um programa que resolve esse tipo de problema.  
+Kary achou a solução para alguns desses problemas, mas teve dificuldade com outros, e por isso pediu que você escrevesse um programa que resolve esse tipo de problema.
 
-Entrada
--------
+## Entrada
 
-A entrada contém vários casos de teste. A primeira e única linha de cada caso de teste contém quatro inteiros _X1_, _Y1_, _X2_ e _Y2_ (_1 ≤ X1, Y1, X2, Y2 ≤ 8_). A dama começa na casa de coordenadas _(X1, Y1)_, e a casa de destino é a casa de coordenadas_(X2, Y2)_. No tabuleiro, as colunas são numeradas da esquerda para a direita de 1 a 8 e as linhas de cima para baixo também de 1 a 8. As coordenadas de uma casa na linha X e coluna Y são (_X, Y_ ).
+A entrada contém vários casos de teste. A primeira e única linha de cada caso de teste contém quatro inteiros _X1_, _Y1_, _X2_ e _Y2_ (_1 ≤ X1, Y1, X2, Y2 ≤ 8_). A dama começa na casa de coordenadas _(X1, Y1)_, e a casa de destino é a casa de coordenadas*(X2, Y2)*. No tabuleiro, as colunas são numeradas da esquerda para a direita de 1 a 8 e as linhas de cima para baixo também de 1 a 8. As coordenadas de uma casa na linha X e coluna Y são (_X, Y_ ).
 
 O final da entrada é indicado por uma linha contendo quatro zeros.
 
-Saída
------
+## Saída
 
 Para cada caso de teste da entrada seu programa deve imprimir uma única linha na saída, contendo um número inteiro, indicando o menor número de movimentos necessários para a dama chegar em sua casa de destino.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| Exemplos de Entrada                               | Exemplos de Saída |
+| ------------------------------------------------- | ----------------- |
 | 4 4 6 2 <br/> 3 5 3 5 <br/> 5 5 4 3 <br/> 0 0 0 0 | 1 <br/> 0 <br/> 2 |
 
 &nbsp;
@@ -58,8 +56,9 @@ int main()
 ```
 
 ### C#
+
 ```cs
-using System; 
+using System;
 
 class URI {
 
