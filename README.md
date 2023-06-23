@@ -10,9 +10,9 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 
 | Category                                                                         | Documented | Total problems |
 | -------------------------------------------------------------------------------- | :--------: | :------------: |
-| [Beginner](./Beginner/README.md)                                                 |     98     |      336       |
-| [Ad-Hoc](./AD-HOC/README.md)                                                     |     3      |      787       |
-| [Strings](./Strings/README.md)                                                   |     2      |      148       |
+| [Beginner](./Beginner/README.md)                                                 |    101     |      336       |
+| [Ad-Hoc](./AD-HOC/README.md)                                                     |     4      |      787       |
+| [Strings](./Strings/README.md)                                                   |     3      |      148       |
 | [Data Structure sand Libraries](./Data%20Structures%20and%20Libraries/README.md) |     1      |      179       |
 | [Mathematics](./Mathematics/README.md)                                           |     2      |      269       |
 | Paradigms                                                                        |     0      |      215       |
@@ -20,7 +20,7 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 | Computational Geometry                                                           |     0      |       82       |
 | [SQL](./Sql)                                                                     |     17     |       46       |
 |                                                                                  |            |                |
-| Total                                                                            |    121     |      2339      |
+| Total                                                                            |    128     |      2339      |
 
 <br/>
 
