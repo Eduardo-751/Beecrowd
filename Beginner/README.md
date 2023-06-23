@@ -36,7 +36,7 @@
 | [📂](./1044%20-%20Multiples) 1044 - Multiples                                                             | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1045%20-%20Triangle%20Types) 1045 - Triangle Types                                                 | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1046%20-%20Game%20Time) 1046 - Game Time                                                           | ✅  | ✅  |  ❌  |   ❌   |
-| [📂](./1047%20-%20Game%20Time%20with%20Minutes) 1047 - Game Time with Minutes                             | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1047%20-%20Game%20Time%20with%20Minutes) 1047 - Game Time with Minutes                             | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1048%20-%20Salary%20Increase) 1048 - Salary Increase                                               | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1049%20-%20Animal) 1049 - Animal                                                                   | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1050%20-%20DDD) 1050 - DDD                                                                         | ✅  | ✅  |  ❌  |   ❌   |
@@ -102,6 +102,7 @@
 | [📂](./1178%20-%20Array%20Fill%20III) 1178 - Array Fill III                                               | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1179%20-%20Array%20Fill%20IV) 1179 - Array Fill IV                                                 | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1866%20-%20Bill) 1866 - Bill                                                                       | ✅  | ✅  |  ✅  |   ✅   |
+| [📂](./2632%20-%20Magic%20and%20Sword) 2632 - Magic and Sword                                             | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2879%20-%20Desvendando%20Monty%20Hall) 2879 - Desvendando Monty Hall                               | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./3342%20-%20Keanu) 3342 - Keanu                                                                     | ✅  | ✅  |  ✅  |   ✅   |
 
