@@ -44,15 +44,15 @@
 | [📂](./1052%20-%20Month) 1052 - Month                                                                     | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1059%20-%20Even%20Numbers) 1059 - Even Numbers                                                     | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1060%20-%20Positive%20Numbers) 1060 - Positive Numbers                                             | ✅  | ✅  |  ❌  |   ❌   |
-| [📂](./1061%20-%20Event%20Time) 1061 - Event Time                                                         | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1064%20-%20Positives%20and%20Average) 1064 - Positives and Average                                 | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1065%20-%20Even%20Between%20five%20Numbers) 1065 - Even Between five Numbers                       | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1066%20-%20Even%2C%20Odd%2C%20Positive%20and%20Negative) 1066 - Even, Odd, Positive and Negative   | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1067%20-%20Odd%20Numbers) 1067 - Odd Numbers                                                       | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1070%20-%20Six%20Odd%20Numbers) 1070 - Six Odd Numbers                                             | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1071%20-%20Sum%20of%20Consecutive%20Odd%20Numbers%20I) 1071 - Sum of Consecutive Odd Numbers I     | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1072%20-%20Interval%202) 1072 - Interval 2                                                         | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1073%20-%20Even%20Square) 1073 - Even Square                                                       | ✅  | ❌  |  ❌  |   ❌   |
+| [📂](./1061%20-%20Event%20Time) 1061 - Event Time                                                         | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1064%20-%20Positives%20and%20Average) 1064 - Positives and Average                                 | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1065%20-%20Even%20Between%20five%20Numbers) 1065 - Even Between five Numbers                       | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1066%20-%20Even%2C%20Odd%2C%20Positive%20and%20Negative) 1066 - Even, Odd, Positive and Negative   | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1067%20-%20Odd%20Numbers) 1067 - Odd Numbers                                                       | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1070%20-%20Six%20Odd%20Numbers) 1070 - Six Odd Numbers                                             | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1071%20-%20Sum%20of%20Consecutive%20Odd%20Numbers%20I) 1071 - Sum of Consecutive Odd Numbers I     | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1072%20-%20Interval%202) 1072 - Interval 2                                                         | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1073%20-%20Even%20Square) 1073 - Even Square                                                       | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1074%20-%20Even%20or%20Odd) 1074 - Even or Odd                                                     | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1075%20-%20Remaining%202) 1075 - Remaining 2                                                       | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1078%20-%20Multiplication%20Table) 1078 - Multiplication Table                                     | ✅  | ❌  |  ❌  |   ❌   |
@@ -103,7 +103,7 @@
 | [📂](./1179%20-%20Array%20Fill%20IV) 1179 - Array Fill IV                                                 | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1866%20-%20Bill) 1866 - Bill                                                                       | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2632%20-%20Magic%20and%20Sword) 2632 - Magic and Sword                                             | ✅  | ✅  |  ✅  |   ✅   |
-| [📂](./2879%20-%20Desvendando%20Monty%20Hall) 2879 - Desvendando Monty Hall                               | ✅  | ❌  |  ❌  |   ❌   |
+| [📂](./2879%20-%20Unraveling%20Monty%20Hall) 2879 - Desvendando Monty Hall                                | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./3342%20-%20Keanu) 3342 - Keanu                                                                     | ✅  | ✅  |  ✅  |   ✅   |
 
 </div>

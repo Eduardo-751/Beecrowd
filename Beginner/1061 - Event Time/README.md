@@ -1,32 +1,28 @@
-1061 - Tempo de um Evento
-=========================
+# 1061 - Tempo de um Evento
 
 Pedrinho está organizando um evento em sua Universidade. O evento deverá ser no mês de Abril, iniciando e terminando dentro do mês. O problema é que Pedrinho quer calcular o tempo que o evento vai durar, uma vez que ele sabe quando inicia e quando termina o evento.
 
 Sabendo que o evento pode durar de poucos segundos a vários dias, você deverá ajudar Pedrinho a calcular a duração deste evento.
 
-Entrada
--------
+## Entrada
 
 Como entrada, na primeira linha vai haver a descrição “Dia”, seguido de um espaço e o dia do mês no qual o evento vai começar. Na linha seguinte, será informado o momento no qual o evento vai iniciar, no formato **hh : mm : ss**. Na terceira e quarta linha de entrada haverá outra informação no mesmo formato das duas primeiras linhas, indicando o término do evento.
 
-Saída
------
+## Saída
 
-Na saída, deve ser apresentada a duração do evento, no seguinte formato:  
-  
+Na saída, deve ser apresentada a duração do evento, no seguinte formato:
+
 W dia(s)  
 X hora(s)  
 Y minuto(s)  
-Z segundo(s)  
-  
-_Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto._
+Z segundo(s)
 
+_Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto._
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| Exemplos de Entrada                                     | Exemplos de Saída                                              |
+| ------------------------------------------------------- | -------------------------------------------------------------- |
 | Dia 5 <br/> 08 : 12 : 23 <br/> Dia 9 <br/> 06 : 13 : 23 | 3 dia(s) <br/> 22 hora(s) <br/> 1 minuto(s) <br/> 0 segundo(s) |
 
 &nbsp;
@@ -58,5 +54,41 @@ int main() {
     printf("%d segundo(s)\n", secTotal);
 
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        string[] entrada;
+        int d1, h1, m1, s1, d2, h2, m2, s2;
+
+        d1 = int.Parse(Console.ReadLine().Trim().Split(' ')[1]);
+        entrada = Console.ReadLine().Trim().Split(':');
+        h1 = int.Parse(entrada[0].Trim());
+        m1 = int.Parse(entrada[1].Trim());
+        s1 = int.Parse(entrada[2].Trim());
+        d2 = int.Parse(Console.ReadLine().Trim().Split(' ')[1]);
+        entrada = Console.ReadLine().Trim().Split(':');
+        h2 = int.Parse(entrada[0].Trim());
+        m2 = int.Parse(entrada[1].Trim());
+        s2 = int.Parse(entrada[2].Trim());
+
+        int secTotal = ((24 * 60 * 60 * d2) + (60 * 60 * h2) + (60 * m2) + s2) - ((24 * 60 * 60 * d1) + (60 * 60 * h1) + (60 * m1) + s1);
+
+        Console.WriteLine($"{secTotal / (24 * 60 * 60)} dia(s)");
+        secTotal %= 24 * 60 * 60;
+        Console.WriteLine($"{secTotal / (60 * 60)} hora(s)");
+        secTotal %= 60 * 60;
+        Console.WriteLine($"{secTotal / 60} minuto(s)");
+        secTotal %= 60;
+        Console.WriteLine($"{secTotal} segundo(s)");
+    }
 }
 ```

@@ -1,23 +1,20 @@
-1065 - Pares entre Cinco Números
-================================
+# 1065 - Pares entre Cinco Números
 
 Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém 5 valores inteiros quaisquer.
 
-Saída
------
+## Saída
 
 Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
-| 7 <br/> -5 <br/> 6 <br/> -4 <br/> 12 <br/> 12 | 3 valores pares|
+| Exemplos de Entrada                           | Exemplos de Saída |
+| --------------------------------------------- | ----------------- |
+| 7 <br/> -5 <br/> 6 <br/> -4 <br/> 12 <br/> 12 | 3 valores pares   |
 
 &nbsp;
 
@@ -39,5 +36,29 @@ int main(){
     }
     printf("%i valores pares\n", a);
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int i, a = 0;
+        int[] A = new int[5];
+
+        for (i = 0; i < 5; i++)
+        {
+            A[i] = int.Parse(Console.ReadLine());
+            if (A[i] % 2 == 0)
+                a++;
+        }
+
+        Console.WriteLine($"{a} valores pares");
+    }
 }
 ```

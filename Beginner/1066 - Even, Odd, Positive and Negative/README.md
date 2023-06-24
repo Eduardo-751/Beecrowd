@@ -1,22 +1,19 @@
-1066 - Pares, Ímpares, Positivos e Negativos
-============================================
+# 1066 - Pares, Ímpares, Positivos e Negativos
 
 Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém 5 valores inteiros quaisquer.
 
-Saída
------
+## Saída
 
 Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| Exemplos de Entrada                            | Exemplos de Saída                                                                                           |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | -5 <br/> 0 <br/> -3 <br/> -4 <br/> 12 <br/> 12 | 3 valor(es) par(es) <br/> 2 valor(es) impar(es) <br/> 1 valor(es) positivo(s) <br/> 3 valor(es) negativo(s) |
 
 &nbsp;
@@ -48,5 +45,38 @@ int main(){
     printf("%i valor(es) positivo(s)\n", c);
     printf("%i valor(es) negativo(s)\n", d);
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int i, a = 0, b = 0, c = 0, d = 0;
+        int[] A = new int[5];
+
+        for (i = 0; i < 5; i++)
+        {
+            A[i] = int.Parse(Console.ReadLine());
+            if (A[i] % 2 == 0)
+                a++;
+            else
+                b++;
+            if (A[i] > 0)
+                c++;
+            else if (A[i] < 0)
+                d++;
+        }
+
+        Console.WriteLine($"{a} valor(es) par(es)");
+        Console.WriteLine($"{b} valor(es) impar(es)");
+        Console.WriteLine($"{c} valor(es) positivo(s)");
+        Console.WriteLine($"{d} valor(es) negativo(s)");
+    }
 }
 ```

@@ -1,22 +1,19 @@
-1070 - Seis Números Ímpares
-===========================
+# 1070 - Seis Números Ímpares
 
 Leia um valor inteiro **X**. Em seguida apresente os 6 valores ímpares consecutivos a partir de **X**, um valor por linha, inclusive o **X** ser for o caso.
 
-Entrada
--------
+## Entrada
 
 A entrada será um valor inteiro positivo.
 
-Saída
------
+## Saída
 
 A saída será uma sequência de seis números ímpares.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| Exemplos de Entrada | Exemplos de Saída                              |
+| ------------------- | ---------------------------------------------- |
 | 8                   | 9 <br/> 11 <br/> 13 <br/> 15 <br/> 17 <br/> 19 |
 
 &nbsp;
@@ -37,5 +34,25 @@ int main(){
     }
 
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int n;
+        n = int.Parse(Console.ReadLine());
+        n += 1 - (n % 2);
+        for (int i = n; i <= n + 10; i += 2)
+        {
+            Console.WriteLine(i);
+        }
+    }
 }
 ```

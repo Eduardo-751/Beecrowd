@@ -1,15 +1,12 @@
-1073 - Quadrado de Pares
-========================
+# 1073 - Quadrado de Pares
 
 Leia um valor inteiro **N**. Apresente o quadrado de cada um dos valores pares, de 1 até **N**, inclusive **N**, se for o caso.
 
-Entrada
--------
+## Entrada
 
 A entrada contém um valor inteiro **N** (5 < **N** < 2000).
 
-Saída
------
+## Saída
 
 Imprima o quadrado de cada um dos valores pares, de 1 até **N**, conforme o exemplo abaixo.
 
@@ -17,8 +14,8 @@ Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| Exemplos de Entrada | Exemplos de Saída                     |
+| ------------------- | ------------------------------------- |
 | 6                   | 2^2 = 4 <br/> 4^2 = 16 <br/> 6^2 = 36 |
 
 &nbsp;
@@ -40,5 +37,24 @@ int main(){
 	}
 
 	return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int max = int.Parse(Console.ReadLine());
+
+        for (int i = 2; i <= max; i += 2)
+        {
+            Console.WriteLine($"{i}^2 = {i * i}");
+        }
+    }
 }
 ```

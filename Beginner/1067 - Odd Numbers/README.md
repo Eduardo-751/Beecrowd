@@ -1,22 +1,19 @@
-1067 - Números Ímpares
-======================
+# 1067 - Números Ímpares
 
 Leia um valor inteiro **X** (1 <= **X** <= 1000). Em seguida mostre os ímpares de 1 até **X**, um valor por linha, inclusive o **X**, se for o caso.
 
-Entrada
--------
+## Entrada
 
 O arquivo de entrada contém 1 valor inteiro qualquer.
 
-Saída
------
+## Saída
 
 Imprima todos os valores ímpares de 1 até **X**, inclusive **X**, se for o caso.
 
 &nbsp;
 
-| Exemplos de Entrada | Exemplos de Saída |
-|---------------------|-------------------|
+| Exemplos de Entrada | Exemplos de Saída         |
+| ------------------- | ------------------------- |
 | 8                   | 1 <br/> 3 <br/> 5 <br/> 7 |
 
 &nbsp;
@@ -37,5 +34,26 @@ int main(){
     }
 
     return 0;
+}
+```
+
+### C#
+
+```cs
+using System;
+
+class URI
+{
+    static void Main(string[] args)
+    {
+        int n;
+        n = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i <= n; i++)
+        {
+            if (i % 2 == 1)
+                Console.WriteLine(i);
+        }
+    }
 }
 ```
