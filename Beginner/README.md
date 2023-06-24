@@ -53,11 +53,11 @@
 | [📂](./1071%20-%20Sum%20of%20Consecutive%20Odd%20Numbers%20I) 1071 - Sum of Consecutive Odd Numbers I     | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1072%20-%20Interval%202) 1072 - Interval 2                                                         | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1073%20-%20Even%20Square) 1073 - Even Square                                                       | ✅  | ✅  |  ❌  |   ❌   |
-| [📂](./1074%20-%20Even%20or%20Odd) 1074 - Even or Odd                                                     | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1075%20-%20Remaining%202) 1075 - Remaining 2                                                       | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1078%20-%20Multiplication%20Table) 1078 - Multiplication Table                                     | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1079%20-%20Weighted%20Averages) 1079 - Weighted Averages                                           | ✅  | ❌  |  ❌  |   ❌   |
-| [📂](./1080%20-%20Highest%20and%20Position) 1080 - Highest and Position                                   | ✅  | ❌  |  ❌  |   ❌   |
+| [📂](./1074%20-%20Even%20or%20Odd) 1074 - Even or Odd                                                     | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1075%20-%20Remaining%202) 1075 - Remaining 2                                                       | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1078%20-%20Multiplication%20Table) 1078 - Multiplication Table                                     | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1079%20-%20Weighted%20Averages) 1079 - Weighted Averages                                           | ✅  | ✅  |  ❌  |   ❌   |
+| [📂](./1080%20-%20Highest%20and%20Position) 1080 - Highest and Position                                   | ✅  | ✅  |  ❌  |   ❌   |
 | [📂](./1094%20-%20Experiments) 1094 - Experiments                                                         | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1095%20-%20Sequence%20IJ%201) 1095 - Sequence IJ 1                                                 | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1096%20-%20Sequence%20IJ%202) 1096 - Sequence IJ 2                                                 | ✅  | ❌  |  ❌  |   ❌   |
