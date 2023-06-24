@@ -8,19 +8,19 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 
 ## Problems Solved
 
-| Category                                                                         | Documented | Total problems |
-| -------------------------------------------------------------------------------- | :--------: | :------------: |
-| [Beginner](./Beginner/README.md)                                                 |    101     |      336       |
-| [Ad-Hoc](./AD-HOC/README.md)                                                     |     4      |      787       |
-| [Strings](./Strings/README.md)                                                   |     3      |      148       |
-| [Data Structure sand Libraries](./Data%20Structures%20and%20Libraries/README.md) |     1      |      179       |
-| [Mathematics](./Mathematics/README.md)                                           |     2      |      269       |
-| Paradigms                                                                        |     0      |      215       |
-| Graph                                                                            |     0      |      277       |
-| Computational Geometry                                                           |     0      |       82       |
-| [SQL](./Sql)                                                                     |     17     |       46       |
-|                                                                                  |            |                |
-| Total                                                                            |    128     |      2339      |
+| Category                                                                        | Documented | Total problems |
+| ------------------------------------------------------------------------------- | :--------: | :------------: |
+| [Beginner](./Beginner/README.md)                                                |    102     |      336       |
+| [Ad-Hoc](./AD-HOC/README.md)                                                    |     5      |      787       |
+| [Strings](./Strings/README.md)                                                  |     3      |      148       |
+| [Data Structure and Libraries](./Data%20Structures%20and%20Libraries/README.md) |     1      |      179       |
+| [Mathematics](./Mathematics/README.md)                                          |     2      |      269       |
+| Paradigms                                                                       |     0      |      215       |
+| Graph                                                                           |     0      |      277       |
+| Computational Geometry                                                          |     0      |       82       |
+| [SQL](./Sql)                                                                    |     17     |       46       |
+|                                                                                 |            |                |
+| Total                                                                           |    130     |      2339      |
 
 <br/>
 
