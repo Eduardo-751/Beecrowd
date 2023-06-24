@@ -105,6 +105,7 @@
 | [📂](./1933%20-%20Tri-du) 1933 - Tri-du                                                                   | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2632%20-%20Magic%20and%20Sword) 2632 - Magic and Sword                                             | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2879%20-%20Unraveling%20Monty%20Hall) 2879 - Desvendando Monty Hall                                | ✅  | ✅  |  ✅  |   ✅   |
+| [📂](./2936%20-%20How%20Mush%20Cassava) 2936 - How Musch Cassava                                          | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./3342%20-%20Keanu) 3342 - Keanu                                                                     | ✅  | ✅  |  ✅  |   ✅   |
 
 </div>
