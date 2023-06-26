@@ -95,3 +95,68 @@ class URI {
     }
 }
 ```
+
+### Java
+
+```java
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int N = 1;
+        while (N != 0) {
+            N = Integer.parseInt(scanner.nextLine());
+
+            if (N == 0)
+                break;
+
+            int[] samples = new int[N + 2];
+            String[] input = scanner.nextLine().split(" ");
+            for (int i = 0; i < N; i++) {
+                samples[i] = Integer.parseInt(input[i]);
+            }
+            samples[N] = Integer.parseInt(input[0]);
+            samples[N + 1] = Integer.parseInt(input[1]);
+
+            int waves = 0;
+            for (int i = 1; i < N + 2 - 1; i++) {
+                if ((samples[i] > samples[i - 1] && samples[i] > samples[i + 1]) ||
+                        (samples[i] < samples[i - 1] && samples[i] < samples[i + 1])) {
+                    waves++;
+                }
+            }
+            System.out.println(waves);
+        }
+        scanner.close();
+    }
+}
+```
+
+### Python
+
+```python
+while True:
+    N = int(input())
+
+    if N == 0:
+        break
+
+    samples = [0] * (N + 2)
+    input_data = input().split()
+
+    for i in range(N):
+        samples[i] = int(input_data[i])
+
+    samples[N] = int(input_data[0])
+    samples[N+1] = int(input_data[1])
+
+    waves = 0
+
+    for i in range(1, N+2 - 1):
+        if (samples[i] > samples[i - 1] and samples[i] > samples[i + 1]) or (samples[i] < samples[i - 1] and samples[i] < samples[i + 1]):
+            waves += 1
+
+    print(waves)
+```

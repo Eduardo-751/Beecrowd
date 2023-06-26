@@ -121,3 +121,100 @@ class URI
     }
 }
 ```
+
+### Java
+
+```java
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int N;
+        String commands;
+        do {
+            N = Integer.parseInt(scanner.nextLine());
+            if (N == 0)
+                break;
+
+            commands = scanner.nextLine();
+            char direction = 'N'; // Initial direction is North
+
+            for (int i = 0; i < N; i++) {
+                if (commands.charAt(i) == 'D') {
+                    switch (direction) {
+                        case 'N':
+                            direction = 'L';
+                            break;
+                        case 'L':
+                            direction = 'S';
+                            break;
+                        case 'S':
+                            direction = 'O';
+                            break;
+                        case 'O':
+                            direction = 'N';
+                            break;
+                    }
+                } else if (commands.charAt(i) == 'E') {
+                    switch (direction) {
+                        case 'N':
+                            direction = 'O';
+                            break;
+                        case 'O':
+                            direction = 'S';
+                            break;
+                        case 'S':
+                            direction = 'L';
+                            break;
+                        case 'L':
+                            direction = 'N';
+                            break;
+                    }
+                }
+            }
+            System.out.println(direction);
+
+        } while (N != 0);
+        scanner.close();
+    }
+}
+```
+
+### Python
+
+```python
+while True:
+    N = int(input())
+
+    if N == 0:
+        break
+
+    commands = input()
+
+    direction = 'N'
+
+    for i in range(N):
+        if commands[i] == 'D':
+            if direction == 'N':
+                direction = 'L'
+            elif direction == 'L':
+                direction = 'S'
+            elif direction == 'S':
+                direction = 'O'
+            elif direction == 'O':
+                direction = 'N'
+        elif commands[i] == 'E':
+            if direction == 'N':
+                direction = 'O'
+            elif direction == 'O':
+                direction = 'S'
+            elif direction == 'S':
+                direction = 'L'
+            elif direction == 'L':
+                direction = 'N'
+
+    print(direction)
+```
