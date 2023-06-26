@@ -28,15 +28,15 @@ Seu programa deve imprimir uma única linha, contendo a diferença entre a press
 ```c
 #include <stdio.h>
 
-int main() {
-
-    int N, M;
-
+int main()
+{
+    int N, T, V, dist=0;
     scanf("%i", &N);
-    scanf("%i", &M);
-
-    printf("%i\n", N-M);
-
+    for(int i=0; i<N; i++){
+        scanf("%i %i", &T, &V);
+        dist += T*V;
+    }
+    printf("%i\n", dist);
     return 0;
 }
 ```
@@ -46,13 +46,19 @@ int main() {
 ```cs
 using System;
 
-class URI {
-    static void Main(string[] args) {
-
+class URI
+{
+    static void Main(string[] args)
+    {
+        int dist=0;
         int N = int.Parse(Console.ReadLine());
-        int M = int.Parse(Console.ReadLine());
-
-        Console.WriteLine($"{N-M}");
+        for(int i=0; i<N; i++){
+            string[] input = Console.ReadLine().Split(' ');
+            int T = int.Parse(input[0]);
+            int V = int.Parse(input[1]);
+            dist += T*V;
+        }
+        Console.WriteLine(dist);
     }
 }
 ```
@@ -66,12 +72,18 @@ class Main {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        int N = scan.nextInt();
-        int M = scan.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int N = Integer.parseInt(scanner.nextLine());
+        int dist = 0;
+        for (int i = 0; i < N; i++) {
+            String[] input = scanner.nextLine().split(" ");
+            int T = Integer.parseInt(input[0]);
+            int V = Integer.parseInt(input[1]);
+            dist += T * V;
+        }
 
-        System.out.println(N - M);
-        scan.close();
+        System.out.println(dist);
+        scanner.close();
     }
 }
 ```
@@ -79,8 +91,14 @@ class Main {
 ### Python
 
 ```python
+dist = 0
 N = int(input())
-M = int(input())
 
-print(N-M)
+for i in range(N):
+    input_values = input().split()
+    T = int(input_values[0])
+    V = int(input_values[1])
+    dist += T * V
+
+print(dist)
 ```

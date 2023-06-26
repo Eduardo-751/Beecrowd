@@ -20,7 +20,7 @@ A saída deve ser escrita na saída padrão.
 | ------------------------------------ | ----------------- |
 | 3 <br/> DDE <br/> 2 <br/> EE <br/> 0 | L <br/> S         |
 
-&nbsp;
+---
 
 ### C99
 

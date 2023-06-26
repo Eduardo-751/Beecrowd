@@ -12,17 +12,17 @@ Cada caso de teste possui apenas um número, t (1 ≤ t ≤ 1000), que represent
 
 Para cada caso de teste imprima apenas uma linha, contendo apenas um inteiro, indicando quantas pessoas clicaram no primeiro link, nessa busca.
 
-### Example
-
-| **Exemplos de Entrada** | **Exemplos de Saída** |
-| ----------------------- | --------------------- |
-| 2                       | 8                     |
-
-| **Exemplos de Entrada** | **Exemplos de Saída** |
-| ----------------------- | --------------------- |
-| 25                      | 100                   |
-
 &nbsp;
+
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------------- | ----------------- |
+| 2                   | 8                 |
+
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------------- | ----------------- |
+| 25                  | 100               |
+
+---
 
 ### C99
 
@@ -67,7 +67,7 @@ class Main {
         System.out.println(t*4);
         scan.close();
     }
-}   
+}
 ```
 
 ### Python

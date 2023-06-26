@@ -22,7 +22,7 @@ Para cada caso de teste da entrada seu programa deve imprimir uma única linha n
 | ------------------------------------------------- | ----------------- |
 | 4 4 6 2 <br/> 3 5 3 5 <br/> 5 5 4 3 <br/> 0 0 0 0 | 1 <br/> 0 <br/> 2 |
 
-&nbsp;
+---
 
 ### C99
 
