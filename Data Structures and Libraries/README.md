@@ -1,6 +1,6 @@
 <div align="center">
 
-## Mathematics (1/179)
+## Data Structures and Libraries (1/179)
 
 | Problem                                                           |  C  | C#  | Java | Python |
 | ----------------------------------------------------------------- | :-: | :-: | :--: | :----: |
