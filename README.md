@@ -10,8 +10,8 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 
 | Category                                                                        | Documented | Total problems |
 | ------------------------------------------------------------------------------- | :--------: | :------------: |
-| [Beginner](./Beginner/README.md)                                                |    102     |      336       |
-| [Ad-Hoc](./AD-HOC/README.md)                                                    |     5      |      787       |
+| [Beginner](./Beginner/README.md)                                                |    103     |      336       |
+| [Ad-Hoc](./AD-HOC/README.md)                                                    |     11     |      823       |
 | [Strings](./Strings/README.md)                                                  |     3      |      148       |
 | [Data Structure and Libraries](./Data%20Structures%20and%20Libraries/README.md) |     1      |      179       |
 | [Mathematics](./Mathematics/README.md)                                          |     2      |      269       |
