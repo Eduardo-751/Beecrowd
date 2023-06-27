@@ -10,7 +10,7 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 
 | Category                                                                        | Documented | Total problems |
 | ------------------------------------------------------------------------------- | :--------: | :------------: |
-| [Beginner](./Beginner/README.md)                                                |    103     |      336       |
+| [Beginner](./Beginner/README.md)                                                |    104     |      336       |
 | [Ad-Hoc](./AD-HOC/README.md)                                                    |     11     |      823       |
 | [Strings](./Strings/README.md)                                                  |     3      |      148       |
 | [Data Structure and Libraries](./Data%20Structures%20and%20Libraries/README.md) |     1      |      179       |
@@ -26,7 +26,7 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 
 ## About Beecrowd
 
-Beecrowd is an online platform created with the aim of providing its users with learning, practice and improvement of their skills in media by solving various programming problems.
+[Beecrowd](https://www.beecrowd.com.br/judge/pt) is an online platform created with the aim of providing its users with learning, practice and improvement of their skills in media by solving various programming problems.
 Problems available on the platform can be solved with different programming languages.
 
 Feel free to explore the different problem categories and their respective solutions. Each solution folder contains a detailed explanation of the problem, the approach used, and the implementation.
