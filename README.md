@@ -18,7 +18,7 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 | Paradigms                                                                       |     0      |      215       |
 | Graph                                                                           |     0      |      277       |
 | Computational Geometry                                                          |     0      |       82       |
-| [SQL](./Sql)                                                                    |     17     |       46       |
+| [SQL](./Sql/README.md)                                                          |     17     |       46       |
 |                                                                                 |            |                |
 | Total                                                                           |    143     |      2339      |
 
