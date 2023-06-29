@@ -19,7 +19,13 @@ Se a gangorra estiver equilibrada, imprima '0'. Se ela estiver desequilibrada de
 | Exemplos de Entrada | Exemplos de Saída |
 | ------------------- | ----------------- |
 | 30 100 60 50        | 0                 |
+
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------------- | ----------------- |
 | 40 40 38 60         | 1                 |
+
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------------- | ----------------- |
 | 35 80 35 75         | -1                |
 
 ---

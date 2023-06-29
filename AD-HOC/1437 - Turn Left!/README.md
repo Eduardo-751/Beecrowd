@@ -75,7 +75,7 @@ class URI
 
             commands = Console.ReadLine();
 
-            char direction = 'N'; // Direção inicial é norte
+            char direction = 'N';
 
             for (int i = 0; i < N; i++)
             {
@@ -84,16 +84,16 @@ class URI
                     switch (direction)
                     {
                         case 'N':
-                            direction = 'L'; // Gira 90 graus à direita
+                            direction = 'L';
                             break;
                         case 'L':
-                            direction = 'S'; // Gira 90 graus à direita
+                            direction = 'S';
                             break;
                         case 'S':
-                            direction = 'O'; // Gira 90 graus à direita
+                            direction = 'O';
                             break;
                         case 'O':
-                            direction = 'N'; // Gira 90 graus à direita
+                            direction = 'N';
                             break;
                     }
                 }
@@ -102,16 +102,16 @@ class URI
                     switch (direction)
                     {
                         case 'N':
-                            direction = 'O'; // Gira 90 graus à esquerda
+                            direction = 'O';
                             break;
                         case 'O':
-                            direction = 'S'; // Gira 90 graus à esquerda
+                            direction = 'S';
                             break;
                         case 'S':
-                            direction = 'L'; // Gira 90 graus à esquerda
+                            direction = 'L';
                             break;
                         case 'L':
-                            direction = 'N'; // Gira 90 graus à esquerda
+                            direction = 'N';
                             break;
                     }
                 }
@@ -140,7 +140,7 @@ class Main {
                 break;
 
             commands = scanner.nextLine();
-            char direction = 'N'; // Initial direction is North
+            char direction = 'N';
 
             for (int i = 0; i < N; i++) {
                 if (commands.charAt(i) == 'D') {
