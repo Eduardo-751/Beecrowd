@@ -10,7 +10,7 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 
 | Category                                                                        | Documented | Total problems |
 | ------------------------------------------------------------------------------- | :--------: | :------------: |
-| [Beginner](./Beginner/README.md)                                                |    105     |      336       |
+| [Beginner](./Beginner/README.md)                                                |    106     |      336       |
 | [Ad-Hoc](./AD-HOC/README.md)                                                    |     12     |      823       |
 | [Strings](./Strings/README.md)                                                  |     3      |      148       |
 | [Data Structure and Libraries](./Data%20Structures%20and%20Libraries/README.md) |     1      |      179       |
@@ -20,7 +20,7 @@ This repository contains my solutions to programming problems from Beecrowd, a c
 | Computational Geometry                                                          |     0      |       82       |
 | [SQL](./Sql)                                                                    |     17     |       46       |
 |                                                                                 |            |                |
-| Total                                                                           |    140     |      2339      |
+| Total                                                                           |    141     |      2339      |
 
 <br/>
 
