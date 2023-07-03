@@ -1,3 +1,5 @@
+# 1089 - Dama
+
 O jogo de xadrez possui várias peças com movimentos curiosos: uma delas é a _dama_, que pode se mover qualquer quantidade de casas na mesma linha, na mesma coluna, ou em uma das duas diagonais, conforme exemplifica a figura abaixo:
 
 ![](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1087.png)
