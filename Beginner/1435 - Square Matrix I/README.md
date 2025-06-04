@@ -13,24 +13,36 @@ Para cada inteiro da entrada imprima a matriz correspondente, de acordo com o ex
 | Exemplo de Entrada | Exemplo de Saída |
 |--------------------|-------------------|
 | 1                  |   1               |
-| 2                  |                   |
-| 3                  |   1   1           |
-| 4                  |   1   1           |
-| 5                  |                   |
-| 0                  |   1   1   1       |
+
+| Exemplo de Entrada | Exemplo de Saída |
+|--------------------|-------------------|
+| 2                  |   1   1           |
+|                    |   1   1           |
+
+| Exemplo de Entrada | Exemplo de Saída |
+|--------------------|-------------------|
+| 3                  |   1   1   1       |
 |                    |   1   2   1       |
 |                    |   1   1   1       |
-|                    |                   |
-|                    |   1   1   1   1   |
+
+| Exemplo de Entrada | Exemplo de Saída |
+|--------------------|-------------------|
+| 4                  |   1   1   1   1   |
 |                    |   1   2   2   1   |
 |                    |   1   2   2   1   |
 |                    |   1   1   1   1   |
-|                    |                   |
-|                    |   1   1   1   1   1 |
+
+| Exemplo de Entrada | Exemplo de Saída |
+|--------------------|-------------------|
+| 5                  |   1   1   1   1   1 |
 |                    |   1   2   2   2   1 |
 |                    |   1   2   3   2   1 |
 |                    |   1   2   2   2   1 |
 |                    |   1   1   1   1   1 |
+
+| Exemplo de Entrada | Exemplo de Saída |
+|--------------------|-------------------|
+| 0                  |                   |
 
 &nbsp;
 
