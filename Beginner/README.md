@@ -101,6 +101,7 @@
 | [📂](./1177%20-%20Array%20fill%20II) 1177 - Array fill II                                                 | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1178%20-%20Array%20Fill%20III) 1178 - Array Fill III                                               | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1179%20-%20Array%20Fill%20IV) 1179 - Array Fill IV                                                 | ✅  | ✅  |  ✅  |   ✅   |
+| [📂](./1180%20-%20Lowest%20Number%20and%20Position) 1180 - Lowest Number and Position                     | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1589%20-%20Bob%20Conduit) 1589 - Bob Conduit                                                       | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1866%20-%20Bill) 1866 - Bill                                                                       | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1924%20-%20Vitória%20and%20Her%20Indecision) 1924 - Vitória and Her Indecision                     | ✅  | ✅  |  ✅  |   ✅   |
@@ -108,6 +109,7 @@
 | [📂](./1933%20-%20Tri-du) 1933 - Tri-du                                                                   | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2006%20-%20Identifying%20Tea) 2006 - 2006 - Identifying Tea                                        | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2632%20-%20Magic%20and%20Sword) 2632 - Magic and Sword                                             | ✅  | ✅  |  ✅  |   ✅   |
+| [📂](./2702%20-%20Hard%20Choice) 2702 - Hard Choice                                                       | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2879%20-%20Unraveling%20Monty%20Hall) 2879 - Desvendando Monty Hall                                | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./2936%20-%20How%20Mush%20Cassava) 2936 - How Musch Cassava                                          | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./3342%20-%20Keanu) 3342 - Keanu                                                                     | ✅  | ✅  |  ✅  |   ✅   |
