@@ -102,6 +102,7 @@
 | [📂](./1178%20-%20Array%20Fill%20III) 1178 - Array Fill III                                               | ✅  | ❌  |  ❌  |   ❌   |
 | [📂](./1179%20-%20Array%20Fill%20IV) 1179 - Array Fill IV                                                 | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1180%20-%20Lowest%20Number%20and%20Position) 1180 - Lowest Number and Position                     | ✅  | ✅  |  ✅  |   ✅   |
+| [📂](./1181%20-%20Line%20in%20Array) 1181 - Line in Array                                                 | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1589%20-%20Bob%20Conduit) 1589 - Bob Conduit                                                       | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1866%20-%20Bill) 1866 - Bill                                                                       | ✅  | ✅  |  ✅  |   ✅   |
 | [📂](./1924%20-%20Vitória%20and%20Her%20Indecision) 1924 - Vitória and Her Indecision                     | ✅  | ✅  |  ✅  |   ✅   |
